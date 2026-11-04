@@ -44,7 +44,9 @@
    "vista": "2026-11-04T21:01:25.773Z",
    "eliminada": false,
    "areas": [
-    "ventas"
+    "ventas",
+    "deportes",
+    "electro"
    ],
    "colaboradores": [],
    "clasificada": "palabras"
@@ -62,7 +64,8 @@
    "eliminada": false,
    "areas": [
     "ventas",
-    "armeria"
+    "armeria",
+    "deportes"
    ],
    "colaboradores": [],
    "clasificada": "palabras"
@@ -162,9 +165,13 @@
    "vista": "2026-11-04T21:01:25.773Z",
    "eliminada": false,
    "areas": [
-    "ventas"
+    "ventas",
+    "deportes"
    ],
-   "colaboradores": [],
+   "colaboradores": [
+    "Sole",
+    "Naty"
+   ],
    "clasificada": "palabras"
   },
   "Ci9DQUlRQUNvZENodHljRjlvT25rek9FSXdRMWhNWVc5NFIyOHpNbFF5U2s1bWFGRRAB": {
@@ -213,15 +220,17 @@
    "areas": [
     "ventas"
    ],
-   "colaboradores": [],
+   "colaboradores": [
+    "Pablo"
+   ],
    "clasificada": "palabras"
   }
  },
  "ficha": {
   "puntaje": 4.7,
   "cantidad": 271,
-  "al": "2026-11-04T21:06:23.319Z"
+  "al": "2026-11-04T21:14:51.672Z"
  },
- "ultima_ok": "2026-11-04T21:06:23.319Z",
+ "ultima_ok": "2026-11-04T21:14:51.672Z",
  "ultima_completa": "2026-11-04T21:01:25.773Z"
 }
