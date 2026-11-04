@@ -3,7 +3,7 @@
 Página que se actualiza sola todos los días a las 10:30 h (Argentina) con las reseñas de Google de ALE desde el 01/11/2026.
 
 - `config.json`: objetivos, áreas, colaboradores (nombre, alias y área) y la regla de conteo.
-- `scripts/actualizar.mjs`: trae las reseñas (Apify), las analiza (IA de GitHub Models, con palabras clave de respaldo) y arma `docs/index.html`.
+- `scripts/actualizar.mjs`: trae las reseñas (Apify), las analiza (por palabras clave y nombres) y arma `docs/index.html`.
 - `data/resenas.json`: el historial.
 - Secreto necesario: `APIFY_TOKEN`.
 
