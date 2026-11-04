@@ -128,9 +128,22 @@ Respondé SOLO con JSON: {"resultados":[{"id":"...","areas":["..."],"colaborador
       ],
     }),
   });
-  if (!res.ok) throw new Error(`IA ${res.status}: ${(await res.text()).slice(0, 300)}`);
-  const contenido = (await res.json()).choices[0].message.content;
-  const { resultados } = JSON.parse(contenido.replace(/^```(json)?|```$/g, ''));
+  const cuerpo = await res.text();
+  if (!res.ok) throw new Error(`IA ${res.status}: ${cuerpo.slice(0, 300)}`);
+  // La respuesta y el contenido a veces traen texto alrededor del JSON
+  const sacarJSON = (t) => JSON.parse(t.slice(t.indexOf('{'), t.lastIndexOf('}') + 1));
+  let contenido;
+  try {
+    contenido = sacarJSON(cuerpo).choices[0].message.content;
+  } catch {
+    throw new Error(`IA: respuesta inesperada: ${cuerpo.slice(0, 300)}`);
+  }
+  let resultados;
+  try {
+    ({ resultados } = sacarJSON(contenido));
+  } catch {
+    throw new Error(`IA: contenido inesperado: ${String(contenido).slice(0, 300)}`);
+  }
   return new Map(resultados.map((r) => [r.id, r]));
 }
 
