@@ -49,7 +49,8 @@
         "cuotas",
         "financiacion",
         "credito"
-      ]
+      ],
+      "icono": "🛍️"
     },
     {
       "id": "logistica",
@@ -71,7 +72,8 @@
         "instalaron",
         "instalacion",
         "llego"
-      ]
+      ],
+      "icono": "🚚"
     },
     {
       "id": "armeria",
@@ -92,7 +94,8 @@
         "carpa",
         "camping",
         "conservadora"
-      ]
+      ],
+      "icono": "🎣"
     },
     {
       "id": "deportes",
@@ -119,7 +122,8 @@
         "montagne",
         "botines",
         "mochila"
-      ]
+      ],
+      "icono": "👟"
     },
     {
       "id": "muebles",
@@ -140,7 +144,8 @@
         "comedor",
         "cama",
         "ropero"
-      ]
+      ],
+      "icono": "🛋️"
     },
     {
       "id": "electro",
@@ -164,7 +169,8 @@
         "bazar",
         "hogar",
         "casa"
-      ]
+      ],
+      "icono": "📺"
     }
   ],
   "colaboradores": []
