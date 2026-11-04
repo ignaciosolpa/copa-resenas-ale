@@ -1,0 +1,44 @@
+name: Actualizar la Copa de Reseñas
+
+on:
+  schedule:
+    - cron: "30 13 * * *" # 10:30 h de Argentina
+    - cron: "0 15 * * *" # 12:00 h, de respaldo: si ya se actualizó, no hace nada
+  workflow_dispatch:
+    inputs:
+      completa:
+        description: "Releer todas las reseñas desde el inicio"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+  models: read
+
+concurrency:
+  group: actualizar
+  cancel-in-progress: false
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Traer y analizar las reseñas
+        env:
+          APIFY_TOKEN: ${{ secrets.APIFY_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          EVENTO: ${{ github.event_name }}
+          COMPLETA: ${{ inputs.completa }}
+        run: node scripts/actualizar.mjs
+      - name: Publicar
+        run: |
+          git config user.name "copa-resenas"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data docs
+          git diff --cached --quiet || git commit -m "Actualización $(TZ=America/Argentina/Buenos_Aires date '+%d/%m %H:%M')"
+          git push
