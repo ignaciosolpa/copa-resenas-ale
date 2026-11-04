@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Copa de Reseñas ALE</title>
+<meta name="robots" content="noindex">
+<style>
+:root{--fondo:#f5f3ee;--papel:#fff;--tinta:#1d1d1b;--suave:#6b6b66;--linea:#e4e1d8;--marca:#c8102e;--ok:#1f8a4c;--mal:#c0392b;--gris:#9a978e}
+*{box-sizing:border-box}body{margin:0;background:var(--fondo);color:var(--tinta);font:16px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+main{max-width:860px;margin:0 auto;padding:16px}
+.top{background:var(--tinta);color:#fff;border-radius:16px;padding:20px}
+.top small{color:#cfcabd;letter-spacing:.08em;text-transform:uppercase;font-size:12px}.top h1{margin:4px 0 6px;font-size:26px}
+.top p{margin:0;color:#e9e6dc;font-size:14px}
+.aviso{display:none;background:#fdecea;color:var(--mal);border:1px solid #f5c6c0;border-radius:12px;padding:12px;margin-top:12px;font-weight:600}
+section{background:var(--papel);border:1px solid var(--linea);border-radius:16px;padding:18px;margin-top:14px}
+h2{margin:0 0 12px;font-size:19px}h3{margin:0 0 6px;font-size:16px}h3 small{color:var(--suave);font-weight:400}
+.general .cifra{font-size:44px;font-weight:800;line-height:1}.general .cifra span{font-size:20px;color:var(--suave);font-weight:600}
+.progreso{height:14px;background:#eeebe3;border-radius:99px;overflow:hidden;margin:10px 0}.progreso i{display:block;height:100%;background:var(--marca);border-radius:99px}
+.datos{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-top:10px}
+.datos div{background:#f8f6f1;border-radius:12px;padding:10px}.datos b{display:block;font-size:22px}.datos span{color:var(--suave);font-size:13px}
+.tramos{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.tramo{border:1px solid var(--linea);border-radius:14px;padding:14px}.tramo.actual{border:2px solid var(--marca)}
+.tramo .cifra{font-size:15px;color:var(--suave)}.tramo .cifra b{font-size:30px;color:var(--tinta)}.tramo small{display:block;color:var(--suave);font-size:13px;margin-top:6px}
+.sello{display:inline-block;font-size:12px;font-weight:700;padding:3px 9px;border-radius:99px;background:#eeebe3;color:var(--suave)}
+.sello.si{background:#e3f4ea;color:var(--ok)}.sello.alerta{background:#fdecea;color:var(--mal)}
+.ranking{list-style:none;margin:0;padding:0}.ranking li{display:grid;grid-template-columns:32px minmax(110px,1.6fr) 1fr 36px;align-items:center;gap:8px;padding:7px 0;border-bottom:1px solid var(--linea)}
+.ranking li:last-child{border:0}.pos{font-weight:700;text-align:center}.barra{height:10px;background:#eeebe3;border-radius:99px;overflow:hidden}.barra i{display:block;height:100%;background:var(--tinta)}
+.ranking b{text-align:right}
+.dos{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:14px}.dos section{margin-top:0}
+.resena{border-top:1px solid var(--linea);padding:12px 0}.resena:first-of-type{border:0}
+.resena header{display:flex;flex-wrap:wrap;gap:8px;align-items:center}.est{color:#e8a317;letter-spacing:1px}.quien{color:var(--suave);font-size:14px}
+.resena p{margin:6px 0}.chips{display:flex;flex-wrap:wrap;gap:6px}.chip{font-size:12px;padding:2px 8px;border-radius:99px;background:#f1eee6}.chip.colab{background:#e8eefc}
+.vacio{color:var(--gris);font-style:italic}
+table{width:100%;border-collapse:collapse;font-size:14px}td,th{padding:6px;border-bottom:1px solid var(--linea);text-align:left}
+details summary{cursor:pointer;font-weight:600}
+footer{color:var(--suave);font-size:13px;padding:18px 4px}
+</style></head><body><main>
+<div class="top"><small>ALE Centro de Compras · Programa de reseñas</small><h1>🏆 La Copa de Reseñas</h1>
+<p>Actualizado el <b id="act" data-iso="2026-11-04T21:01:25.773Z">04/11 a las 18:01 h</b> · se actualiza solo todos los días a las 11 h · Google hoy: ★ 4,7 con 271 reseñas</p></div>
+<div class="aviso" id="aviso">⚠️ Hoy todavía no se actualizó. Los números son de la última actualización.</div>
+
+<section class="general"><h2>Objetivo general · 01/11 al 12/01</h2>
+<div class="cifra">10 <span>/ 250 reseñas</span></div>
+<div class="progreso"><i style="width:4%"></i></div>
+<div class="datos"><div><b>4%</b><span>del objetivo</span></div><div><b>240</b><span>faltan</span></div>
+<div><b>14</b><span>deberíamos llevar hoy</span></div><div><b>3,4</b><span>por día para llegar (70 días)</span></div></div></section>
+
+<section><h2>Objetivo por mes</h2><div class="tramos"><div class="tramo actual"><h3>Noviembre <small>01/11 al 30/11</small></h3><div class="cifra"><b>10</b> / 100</div><div class="progreso"><i style="width:10%"></i></div><span class="sello alerta">Vamos 3 abajo del ritmo</span><small>Al día de hoy deberíamos llevar 13. Faltan 90 en 27 días.</small></div><div class="tramo"><h3>Diciembre <small>01/12 al 31/12</small></h3><div class="cifra"><b>0</b> / 100</div><div class="progreso"><i style="width:0%"></i></div><span class="sello no">Empieza el 01/12</span></div><div class="tramo"><h3>Enero <small>01/01 al 12/01</small></h3><div class="cifra"><b>0</b> / 50</div><div class="progreso"><i style="width:0%"></i></div><span class="sello no">Empieza el 01/01</span></div></div></section>
+
+<section><h2>Nuevas en las últimas 24 horas (3)</h2><article class="resena"><header><span class="est">★★★★★</span><span class="quien">Monica · 03/11</span><span class="sello si">Cuenta</span></header><p>Gracias por la buena atención</p><div class="chips"><span class="chip area">Ventas y atención</span></div></article><article class="resena"><header><span class="est">★★★★★</span><span class="quien">mateo · 03/11</span><span class="sello no">No cuenta · sin texto</span></header><p class="vacio">(sin texto)</p></article><article class="resena"><header><span class="est">★★★★★</span><span class="quien">Andrea · 03/11</span><span class="sello si">Cuenta</span></header><p>Excelente atención, buenos precios y calidad tanto en deportes como el hogar</p><div class="chips"><span class="chip area">Ventas y atención</span></div></article></section>
+
+<div class="dos" style="margin-top:14px">
+<section><h2>🏅 Áreas más nombradas</h2><h3>Toda la temporada</h3><ol class="ranking"><li><span class="pos">🏆</span><span class="nom">Ventas y atención</span><span class="barra"><i style="width:100%"></i></span><b>10</b></li><li><span class="pos">2</span><span class="nom">Armería, camping y pesca</span><span class="barra"><i style="width:10%"></i></span><b>1</b></li></ol>
+<h3 style="margin-top:14px">Noviembre</h3><ol class="ranking"><li><span class="pos">🏆</span><span class="nom">Ventas y atención</span><span class="barra"><i style="width:100%"></i></span><b>10</b></li><li><span class="pos">2</span><span class="nom">Armería, camping y pesca</span><span class="barra"><i style="width:10%"></i></span><b>1</b></li></ol></section>
+<section><h2>👤 Colaboradores más nombrados</h2><h3>Toda la temporada</h3><p class="vacio">Todavía nadie fue nombrado.</p>
+<h3 style="margin-top:14px">Noviembre</h3><p class="vacio">Todavía nadie fue nombrado este mes.</p></section>
+</div>
+
+<section><h2>Las que no cuentan</h2>
+<div class="datos"><div><b>3</b><span>con 4-5★ pero sin texto</span></div><div><b>0</b><span>de 1 a 3★ (alerta)</span></div></div>
+<p style="color:var(--suave);font-size:14px">Para que una reseña cuente tiene que tener texto y 4 o 5★. Pedile al cliente que cuente qué compró y quién lo atendió.</p>
+
+<details><summary>Ver las 3 sin texto</summary><article class="resena"><header><span class="est">★★★★★</span><span class="quien">mateo · 03/11</span><span class="sello no">No cuenta · sin texto</span></header><p class="vacio">(sin texto)</p></article><article class="resena"><header><span class="est">★★★★★</span><span class="quien">Rosana · 02/11</span><span class="sello no">No cuenta · sin texto</span></header><p class="vacio">(sin texto)</p></article><article class="resena"><header><span class="est">★★★★★</span><span class="quien">Mariela · 02/11</span><span class="sello no">No cuenta · sin texto</span></header><p class="vacio">(sin texto)</p></article></details></section>
+
+<section><h2>Día por día (últimos 14 días)</h2><table><tr><th>Día</th><th>Cuentan</th><th>No cuentan</th></tr><tr><td>04/11</td><td>0</td><td>0</td></tr><tr><td>03/11</td><td>4</td><td>1</td></tr><tr><td>02/11</td><td>6</td><td>2</td></tr><tr><td>01/11</td><td>0</td><td>0</td></tr></table></section>
+
+<section><details><summary>Todas las reseñas que cuentan (10)</summary><article class="resena"><header><span class="est">★★★★★</span><span class="quien">Monica · 03/11</span><span class="sello si">Cuenta</span></header><p>Gracias por la buena atención</p><div class="chips"><span class="chip area">Ventas y atención</span></div></article><article class="resena"><header><span class="est">★★★★★</span><span class="quien">Andrea · 03/11</span><span class="sello si">Cuenta</span></header><p>Excelente atención, buenos precios y calidad tanto en deportes como el hogar</p><div class="chips"><span class="chip area">Ventas y atención</span></div></article><article class="resena"><header><span class="est">★★★★★</span><span class="quien">Karen · 03/11</span><span class="sello si">Cuenta</span></header><p>Excelente atención y precios en armería y deportes...</p><div class="chips"><span class="chip area">Ventas y atención</span><span class="chip area">Armería, camping y pesca</span></div></article><article class="resena"><header><span class="est">★★★★★</span><span class="quien">Rocio · 03/11</span><span class="sello si">Cuenta</span></header><p>Hermoso  lugar, y la atención de todos los sectores de la tienda!!</p><div class="chips"><span class="chip area">Ventas y atención</span></div></article><article class="resena"><header><span class="est">★★★★★</span><span class="quien">Bauti · 02/11</span><span class="sello si">Cuenta</span></header><p>Atención espectacular</p><div class="chips"><span class="chip area">Ventas y atención</span></div></article><article class="resena"><header><span class="est">★★★★★</span><span class="quien">Ezequiel · 02/11</span><span class="sello si">Cuenta</span></header><p>Muy buena atención</p><div class="chips"><span class="chip area">Ventas y atención</span></div></article><article class="resena"><header><span class="est">★★★★★</span><span class="quien">Mariano · 02/11</span><span class="sello si">Cuenta</span></header><p>La atención es un verdadero lujo, y los precios espectaculares.</p><div class="chips"><span class="chip area">Ventas y atención</span></div></article><article class="resena"><header><span class="est">★★★★★</span><span class="quien">Yanina · 02/11</span><span class="sello si">Cuenta</span></header><p>Excelente atención y precios linea montagne super recomendable gracias naty y sole</p><div class="chips"><span class="chip area">Ventas y atención</span></div></article><article class="resena"><header><span class="est">★★★★☆</span><span class="quien">Viviana · 02/11</span><span class="sello si">Cuenta</span></header><p>Buena atención.</p><div class="chips"><span class="chip area">Ventas y atención</span></div></article><article class="resena"><header><span class="est">★★★★★</span><span class="quien">Puni · 02/11</span><span class="sello si">Cuenta</span></header><p>La atención de Pablo , muy buena  como así todo lo demás; siendo que desde hace mucho tiempo soy cliente y siempre he sido atendido de muy buena forma.</p><div class="chips"><span class="chip area">Ventas y atención</span></div></article></details></section>
+
+<footer>Datos de la ficha de Google Maps de ALE Centro de Compras. Cuentan las reseñas desde el 01/11 con texto y 4 o 5★. Si Google borra una reseña, se descuenta. Las menciones las detecta una inteligencia artificial. Programa de Olpa Group.</footer>
+</main>
+<script>
+(function(){var el=document.getElementById('act');var h=(Date.now()-Date.parse(el.dataset.iso))/36e5;if(h>26)document.getElementById('aviso').style.display='block';})();
+</script>
+</body></html>
