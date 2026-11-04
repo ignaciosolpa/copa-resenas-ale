@@ -1,0 +1,34 @@
+{
+  "negocio": "ALE Centro de Compras",
+  "google_maps_url": "https://www.google.com/maps/place/Ale+Centro+De+Compras/@-35.0345565,-64.2460657,765m/data=!3m2!1e3!4b1!4m6!3m5!1s0x95c52bfe8fe746eb:0x898bd33ee042447!8m2!3d-35.0345565!4d-64.2460657!16s%2Fg%2F11fy2vh0tg",
+  "control_nombre": "ale centro",
+  "apify_actor": "compass~google-maps-reviews-scraper",
+  "modelo_ia": "openai/gpt-4.1-mini",
+  "inicio": "2026-11-01",
+  "objetivo_general": 250,
+  "tramos": [
+    { "nombre": "Noviembre", "desde": "2026-11-01", "hasta": "2026-11-30", "meta": 100 },
+    { "nombre": "Diciembre", "desde": "2026-12-01", "hasta": "2026-12-31", "meta": 100 },
+    { "nombre": "Enero", "desde": "2027-01-01", "hasta": "2027-01-12", "meta": 50 }
+  ],
+  "regla": {
+    "estrellas_minimas": 4,
+    "caracteres_minimos": 3
+  },
+  "areas": [
+    { "id": "ventas", "nombre": "Ventas y atención", "descripcion": "la atención en el local, los vendedores, la caja, el asesoramiento, la financiación",
+      "palabras": ["atencion", "atendio", "atendieron", "vendedor", "vendedora", "asesor", "asesoro", "asesoramiento", "caja", "cajera", "cajero", "cuotas", "financiacion", "credito"] },
+    { "id": "logistica", "nombre": "Logística y reparto", "descripcion": "la entrega, el envío, el chofer, el flete, el armado o la instalación en la casa",
+      "palabras": ["entrega", "entregaron", "envio", "enviaron", "chofer", "flete", "reparto", "me lo trajeron", "lo trajeron", "domicilio", "armado", "armaron", "instalaron", "instalacion", "llego"] },
+    { "id": "armeria", "nombre": "Armería, camping y pesca", "descripcion": "armas, caza, cartuchos, cañas, reeles, carpas, camping, pesca",
+      "palabras": ["armeria", "arma", "rifle", "escopeta", "cartucho", "caza", "pesca", "caña", "cana de pescar", "reel", "anzuelo", "carpa", "camping", "conservadora"] },
+    { "id": "deportes", "nombre": "Deportes, ropa y calzado", "descripcion": "ropa, zapatillas, calzado, camisetas, marcas deportivas, bicicletas",
+      "palabras": ["ropa", "zapatilla", "zapatillas", "calzado", "camiseta", "remera", "campera", "buzo", "deporte", "deportiva", "nike", "adidas", "puma", "topper", "bici", "bicicleta", "indumentaria"] },
+    { "id": "muebles", "nombre": "Mueblería y colchones", "descripcion": "muebles, colchones, sommiers, sillones, placares, mesas, sillas",
+      "palabras": ["mueble", "muebles", "colchon", "colchones", "sommier", "sillon", "sillones", "placard", "placar", "mesa", "silla", "comedor", "cama", "ropero"] },
+    { "id": "electro", "nombre": "Electro y hogar", "descripcion": "heladeras, lavarropas, aires, televisores, celulares, bazar y cosas para la casa",
+      "palabras": ["heladera", "lavarropas", "aire acondicionado", "aire", "tele", "televisor", "tv", "celular", "microondas", "cocina", "horno", "electro", "freezer", "ventilador", "bazar"] }
+  ],
+  "colaboradores": [
+  ]
+}
