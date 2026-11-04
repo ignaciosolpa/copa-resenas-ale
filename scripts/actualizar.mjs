@@ -222,6 +222,8 @@ async function main() {
   }
 
   store.ultima_ok = ahora;
+  await fs.mkdir('data', { recursive: true });
+  await fs.mkdir('docs', { recursive: true });
   console.log(`Listo: ${traidas.length} leídas, ${aClasificar.length} analizadas, ${Object.values(store.resenas).filter(cuenta).length} cuentan`);
   await fs.writeFile(STORE_PATH, JSON.stringify(store, null, 1));
   await fs.writeFile(HTML_PATH, armarHTML(store));
