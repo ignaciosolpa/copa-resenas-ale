@@ -92,87 +92,47 @@ function normalizar(it) {
 
 // ---------- análisis ----------
 const sinTildes = (s) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '');
-const contiene = (texto, palabra) => new RegExp(`(^|[^a-zñ])${sinTildes(palabra)}([^a-zñ]|$)`).test(texto);
+// La palabra suelta o en plural («deporte» también encuentra «deportes»)
+const contiene = (texto, palabra) => new RegExp(`(^|[^a-zñ])${sinTildes(palabra)}(s|es)?([^a-zñ]|$)`).test(texto);
 
-function porPalabras(texto) {
-  const t = sinTildes(texto);
-  const areas = CFG.areas.filter((a) => a.palabras.some((p) => contiene(t, p))).map((a) => a.id);
-  const colaboradores = CFG.colaboradores
-    .filter((c) => [c.nombre, ...(c.alias || [])].some((n) => contiene(t, n)))
-    .map((c) => c.nombre);
-  return { areas, colaboradores };
-}
+// Nombres de pila comunes: detectan a colaboradores que todavía no están en config.json
+const NOMBRES = `juan pablo pedro jose carlos luis jorge miguel diego martin matias nicolas nico lucas facundo facu franco gonzalo
+gonza sebastian seba hernan fernando fer alejandro gustavo marcelo ricardo roberto daniel dani sergio raul oscar ruben hugo mario
+javier javi maxi maximiliano emiliano ema ezequiel eze agustin tomas santiago ignacio nacho joaquin rodrigo rodri mauricio mauri
+leandro cristian claudio walter ariel dario fabian federico fede gabriel gaston german guillermo guille ivan julian leonardo leo
+manuel manu mariano nahuel omar patricio ramiro ramon rafael silvio victor alberto andres antonio eduardo enzo esteban gerardo
+horacio lautaro mateo nestor norberto osvaldo pepe quique tito valentin marcos marco adrian alfredo emanuel jonathan kevin
+maria ana laura lau sole soledad naty nati natalia carla carolina caro claudia cecilia ceci daniela florencia flor gabriela gabi
+georgina gisela jesica jessica julieta juli karina lorena lucia luciana mabel marcela mariana marina micaela mica milagros mili
+monica noelia paula pau patricia paty romina rocio sabrina silvia sofia sofi susana valeria vale vanesa veronica vero vicky yanina
+agustina agus antonella anto belen camila cami celeste eugenia euge ines ivana jimena josefina magali marta melina nadia pamela
+priscila sandra sonia tamara vanina yamila analia betina delfina emilia andrea alejandra estela graciela liliana miriam norma
+silvana virginia viviana`.split(/\s+/);
+const capital = (n) => n.charAt(0).toUpperCase() + n.slice(1);
 
-async function porIA(lote) {
-  const conocidos = CFG.colaboradores.length
-    ? CFG.colaboradores.map((c) => `- ${c.nombre}${c.alias?.length ? ` (también: ${c.alias.join(', ')})` : ''}, área ${c.area}`).join('\n')
-    : '(todavía no hay lista)';
-  const sistema = `Analizás reseñas de Google de ${CFG.negocio} (Realicó, La Pampa), un comercio multirubro.
-Para cada reseña devolvé:
-- "areas": las áreas del negocio que nombra o de las que habla (solo estos id):
-${CFG.areas.map((a) => `  ${a.id}: ${a.descripcion}`).join('\n')}
-- "colaboradores": los nombres de empleados de ${CFG.negocio} que la reseña nombra. No incluyas al autor, ni marcas, ni nombres del negocio. Colaboradores conocidos:
-${conocidos}
-Si nombra a uno conocido, usá su nombre tal como figura arriba. Si nombra a otro empleado, devolvé su nombre de pila con mayúscula inicial.
-Respondé SOLO con JSON: {"resultados":[{"id":"...","areas":["..."],"colaboradores":["..."]}]}`;
-  const res = await fetch('https://models.github.ai/inference/chat/completions', {
-    method: 'POST',
-    headers: { Authorization: `Bearer ${process.env.GITHUB_TOKEN}`, 'Content-Type': 'application/json', Accept: 'application/json' },
-    body: JSON.stringify({
-      model: CFG.modelo_ia,
-      temperature: 0,
-      response_format: { type: 'json_object' },
-      messages: [
-        { role: 'system', content: sistema },
-        { role: 'user', content: JSON.stringify(lote.map((r) => ({ id: r.id, texto: r.texto }))) },
-      ],
-    }),
-  });
-  const cuerpo = await res.text();
-  if (!res.ok) throw new Error(`IA ${res.status}: ${cuerpo.slice(0, 300)}`);
-  // La respuesta y el contenido a veces traen texto alrededor del JSON
-  const sacarJSON = (t) => JSON.parse(t.slice(t.indexOf('{'), t.lastIndexOf('}') + 1));
-  let contenido;
-  try {
-    contenido = sacarJSON(cuerpo).choices[0].message.content;
-  } catch {
-    throw new Error(`IA: respuesta inesperada: ${cuerpo.slice(0, 300)}`);
-  }
-  let resultados;
-  try {
-    ({ resultados } = sacarJSON(contenido));
-  } catch {
-    throw new Error(`IA: contenido inesperado: ${String(contenido).slice(0, 300)}`);
-  }
-  return new Map(resultados.map((r) => [r.id, r]));
-}
-
-async function clasificar(resenas) {
-  const conTexto = resenas.filter((r) => r.texto);
-  for (const r of resenas.filter((r) => !r.texto)) Object.assign(r, { areas: [], colaboradores: [], clasificada: 'sin texto' });
-  const idsAreas = new Set(CFG.areas.map((a) => a.id));
-  for (let i = 0; i < conTexto.length; i += 15) {
-    const lote = conTexto.slice(i, i + 15);
-    let ia = null;
-    if (process.env.GITHUB_TOKEN) {
-      try {
-        ia = await conReintentos(() => porIA(lote), 'IA', 2);
-      } catch (e) {
-        console.error(`IA no disponible, uso palabras clave: ${e.message}`);
+function clasificar(resenas) {
+  for (const r of resenas) {
+    if (!r.texto) {
+      Object.assign(r, { areas: [], colaboradores: [], clasificada: 'sin texto' });
+      continue;
+    }
+    const t = sinTildes(r.texto);
+    const areas = CFG.areas.filter((a) => a.palabras.some((p) => contiene(t, p))).map((a) => a.id);
+    const colaboradores = [];
+    const tomados = new Set();
+    for (const c of CFG.colaboradores) {
+      const formas = [c.nombre, ...(c.alias || [])].map(sinTildes);
+      if (formas.some((n) => contiene(t, n))) {
+        colaboradores.push(c.nombre);
+        formas.forEach((n) => tomados.add(n));
+        // Un colaborador suma también para su área
+        if (c.area && !areas.includes(c.area)) areas.push(c.area);
       }
     }
-    for (const r of lote) {
-      const res = ia?.get(r.id);
-      const base = res
-        ? { areas: (res.areas || []).filter((a) => idsAreas.has(a)), colaboradores: res.colaboradores || [], clasificada: 'ia' }
-        : { ...porPalabras(r.texto), clasificada: 'palabras' };
-      // Un colaborador conocido suma también para su área
-      for (const c of CFG.colaboradores) {
-        if (base.colaboradores.includes(c.nombre) && c.area && !base.areas.includes(c.area)) base.areas.push(c.area);
-      }
-      base.colaboradores = [...new Set(base.colaboradores.map((n) => n.trim()).filter(Boolean))];
-      Object.assign(r, base);
+    for (const n of NOMBRES) {
+      if (!tomados.has(n) && new RegExp(`(^|[^a-zñ])${n}([^a-zñ]|$)`).test(t)) colaboradores.push(capital(n));
     }
+    Object.assign(r, { areas, colaboradores: [...new Set(colaboradores)], clasificada: 'palabras' });
   }
 }
 
@@ -206,21 +166,18 @@ async function main() {
 
   const traidas = conId.map(normalizar).filter((r) => r.id && r.dia && r.dia >= CFG.inicio);
   const ahora = new Date().toISOString();
-  const aClasificar = [];
+  let nuevas = 0;
   for (const r of traidas) {
     const previa = store.resenas[r.id];
     if (!previa) {
-      aClasificar.push(r);
+      nuevas++;
       store.resenas[r.id] = { ...r, vista: ahora, eliminada: false };
     } else {
-      const cambio = previa.texto !== r.texto;
       Object.assign(previa, { ...r, vista: previa.vista, eliminada: false });
-      if (cambio || previa.clasificada === 'palabras') aClasificar.push(previa);
     }
   }
-  // Las nuevas se guardan con su análisis
-  const pendientes = aClasificar.map((r) => store.resenas[r.id]);
-  await clasificar(pendientes);
+  // Se analizan todas en cada corrida: así se aplica cualquier cambio de config.json
+  clasificar(Object.values(store.resenas));
 
   // En la lectura completa, lo que Google ya no muestra se marca como eliminado
   if (completa) {
@@ -237,7 +194,7 @@ async function main() {
   store.ultima_ok = ahora;
   await fs.mkdir('data', { recursive: true });
   await fs.mkdir('docs', { recursive: true });
-  console.log(`Listo: ${traidas.length} leídas, ${aClasificar.length} analizadas, ${Object.values(store.resenas).filter(cuenta).length} cuentan`);
+  console.log(`Listo: ${traidas.length} leídas, ${nuevas} nuevas, ${Object.values(store.resenas).filter(cuenta).length} cuentan`);
   await fs.writeFile(STORE_PATH, JSON.stringify(store, null, 1));
   await fs.writeFile(HTML_PATH, armarHTML(store));
 }
@@ -392,7 +349,7 @@ ${sinTexto.length ? `<details><summary>Ver las ${sinTexto.length} sin texto</sum
 
 <section><details><summary>Todas las reseñas que cuentan (${validas.length})</summary>${validas.map(tarjetaResena).join('')}</details></section>
 
-<footer>Datos de la ficha de Google Maps de ALE Centro de Compras. Cuentan las reseñas desde el ${fmtDia(CFG.inicio)} con texto y 4 o 5★. Si Google borra una reseña, se descuenta. Las menciones las detecta una inteligencia artificial. Programa de Olpa Group.</footer>
+<footer>Datos de la ficha de Google Maps de ALE Centro de Compras. Cuentan las reseñas desde el ${fmtDia(CFG.inicio)} con texto y 4 o 5★. Si Google borra una reseña, se descuenta. Las áreas y los nombres se detectan por las palabras de cada reseña. Programa de Olpa Group.</footer>
 </main>
 <script>
 (function(){var el=document.getElementById('act');var h=(Date.now()-Date.parse(el.dataset.iso))/36e5;if(h>26)document.getElementById('aviso').style.display='block';})();
