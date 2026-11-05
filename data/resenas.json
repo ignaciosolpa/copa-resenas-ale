@@ -15,7 +15,8 @@
     "ventas"
    ],
    "colaboradores": [],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT2tGT05qTXlXbVJJV0ZGdFlVUlJiRzFhT0dGUVQwRRAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2tGT05qTXlXbVJJV0ZGdFlVUlJiRzFhT0dGUVQwRRAB",
@@ -30,7 +31,8 @@
    "eliminada": false,
    "areas": [],
    "colaboradores": [],
-   "clasificada": "sin texto"
+   "clasificada": "sin texto",
+   "antigua": false
   },
   "ChdDSUhNMG9nS0VJQ0FnSURzZ0x2cXR3RRAB": {
    "id": "ChdDSUhNMG9nS0VJQ0FnSURzZ0x2cXR3RRAB",
@@ -49,7 +51,8 @@
     "electro"
    ],
    "colaboradores": [],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": true
   },
   "Ci9DQUlRQUNvZENodHljRjlvT21kdWIyNTFWM1Y0Y2pSR1RYQXpjVE5KWkMxTFdIYxAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT21kdWIyNTFWM1Y0Y2pSR1RYQXpjVE5KWkMxTFdIYxAB",
@@ -68,7 +71,8 @@
     "deportes"
    ],
    "colaboradores": [],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT2pOV2NuRjRjREZ6ZFc5b2VEVkZabE56ZUdweFpuYxAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2pOV2NuRjRjREZ6ZFc5b2VEVkZabE56ZUdweFpuYxAB",
@@ -85,7 +89,8 @@
     "ventas"
    ],
    "colaboradores": [],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT2w5VU5YcHViREJaZDJreFZEbExjRVJtYUVkNVdHYxAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2w5VU5YcHViREJaZDJreFZEbExjRVJtYUVkNVdHYxAB",
@@ -102,7 +107,8 @@
     "ventas"
    ],
    "colaboradores": [],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT25aRExYZERRMGxuYjFKVllXdFVXbTE0Ukc1clIxRRAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT25aRExYZERRMGxuYjFKVllXdFVXbTE0Ukc1clIxRRAB",
@@ -119,7 +125,8 @@
     "ventas"
    ],
    "colaboradores": [],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "ChdDSUhNMG9nS0VJQ0FnSUNnaU96RDVnRRAB": {
    "id": "ChdDSUhNMG9nS0VJQ0FnSUNnaU96RDVnRRAB",
@@ -136,7 +143,8 @@
     "ventas"
    ],
    "colaboradores": [],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": true
   },
   "Ci9DQUlRQUNvZENodHljRjlvT2sxYU1YWkdVRmhDVVZKSlRIcExYMEU1VFMxdExVRRAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2sxYU1YWkdVRmhDVVZKSlRIcExYMEU1VFMxdExVRRAB",
@@ -151,7 +159,8 @@
    "eliminada": false,
    "areas": [],
    "colaboradores": [],
-   "clasificada": "sin texto"
+   "clasificada": "sin texto",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT21KdWJFcFhSalZpTXpWUE5tZHBTWEZDT0VGc2FIYxAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT21KdWJFcFhSalZpTXpWUE5tZHBTWEZDT0VGc2FIYxAB",
@@ -172,7 +181,8 @@
     "Sole",
     "Naty"
    ],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT25rek9FSXdRMWhNWVc5NFIyOHpNbFF5U2s1bWFGRRAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT25rek9FSXdRMWhNWVc5NFIyOHpNbFF5U2s1bWFGRRAB",
@@ -187,7 +197,8 @@
    "eliminada": false,
    "areas": [],
    "colaboradores": [],
-   "clasificada": "sin texto"
+   "clasificada": "sin texto",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT25GVll6a3dXVzh4YUhSVGIzZzVNRzFqY0dWMldrRRAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT25GVll6a3dXVzh4YUhSVGIzZzVNRzFqY0dWMldrRRAB",
@@ -204,7 +215,8 @@
     "ventas"
    ],
    "colaboradores": [],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT2paM2VVZGhUek5vUjFaclNGQTJPWGxZU0dVMFNYYxAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2paM2VVZGhUek5vUjFaclNGQTJPWGxZU0dVMFNYYxAB",
@@ -223,13 +235,14 @@
    "colaboradores": [
     "Pablo"
    ],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT2xOeFp6ZHFRbkJ6VEd3MVdIUkVSM1pIVVMwMFpIYxAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2xOeFp6ZHFRbkJ6VEd3MVdIUkVSM1pIVVMwMFpIYxAB",
    "autor": "Roxana Chaves",
    "estrellas": 5,
-   "texto": "Excelente atención de Pablo<br>Súper buenos precios",
+   "texto": "Excelente atención de Pablo\nSúper buenos precios",
    "fecha": "2026-10-31T22:00:51.748Z",
    "dia": "2026-10-31",
    "url": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xOeFp6ZHFRbkJ6VEd3MVdIUkVSM1pIVVMwMFpIYxAB!2m1!1s0x0:0x898bd33ee042447!3m1!1s2@1:CAIQACodChtycF9oOlNxZzdqQnBzTGw1WHRER3ZHUS00ZHc%7C%7C?hl=es-419",
@@ -242,7 +255,8 @@
    "colaboradores": [
     "Pablo"
    ],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT2tFMWJVVmtVbGRDVDFKWVlWcGpTbGx5ZFd0eGVGRRAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2tFMWJVVmtVbGRDVDFKWVlWcGpTbGx5ZFd0eGVGRRAB",
@@ -259,7 +273,8 @@
     "ventas"
    ],
    "colaboradores": [],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT25RNFdEVXpZbkZ1YzFKRExYRm5UVmhzVlhneE0yYxAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT25RNFdEVXpZbkZ1YzFKRExYRm5UVmhzVlhneE0yYxAB",
@@ -274,7 +289,8 @@
    "eliminada": false,
    "areas": [],
    "colaboradores": [],
-   "clasificada": "sin texto"
+   "clasificada": "sin texto",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT21wVlRXNXdTMGhLYkZGdlNtZDNVWFUwVWkxVlVuYxAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT21wVlRXNXdTMGhLYkZGdlNtZDNVWFUwVWkxVlVuYxAB",
@@ -293,7 +309,8 @@
    "colaboradores": [
     "Jose"
    ],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT2paT1YzSnFVME50VUMxcllXcGxjWFE1ZVROSFZtYxAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2paT1YzSnFVME50VUMxcllXcGxjWFE1ZVROSFZtYxAB",
@@ -312,7 +329,8 @@
    "colaboradores": [
     "Pablo"
    ],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT2pWVFZGZFNOMlV6Y0daaFkyMW5Vak5FVTBoUlVFRRAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2pWVFZGZFNOMlV6Y0daaFkyMW5Vak5FVTBoUlVFRRAB",
@@ -329,7 +347,8 @@
     "ventas"
    ],
    "colaboradores": [],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT213eFQwWkRiMWRpVVcweldrWTVXbUZsVUZsc1ZIYxAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT213eFQwWkRiMWRpVVcweldrWTVXbUZsVUZsc1ZIYxAB",
@@ -346,7 +365,8 @@
     "ventas"
    ],
    "colaboradores": [],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT2sxRFVGaHNTWGxmVFd4Zk9GSjZTRXRTUTFZeU1rRRAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2sxRFVGaHNTWGxmVFd4Zk9GSjZTRXRTUTFZeU1rRRAB",
@@ -361,7 +381,8 @@
    "eliminada": false,
    "areas": [],
    "colaboradores": [],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT2tGRFNFWTBOVkV5VHpacFZTMTBZbmRLWVZsQ2IwRRAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2tGRFNFWTBOVkV5VHpacFZTMTBZbmRLWVZsQ2IwRRAB",
@@ -381,7 +402,8 @@
     "Pablo",
     "Jose"
    ],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "ChdDSUhNMG9nS0VJQ0FnSURrODduZHhRRRAB": {
    "id": "ChdDSUhNMG9nS0VJQ0FnSURrODduZHhRRRAB",
@@ -398,7 +420,8 @@
     "ventas"
    ],
    "colaboradores": [],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": true
   },
   "Ci9DQUlRQUNvZENodHljRjlvT2xSUFJGaEZRbDlGWVdOM2JrUnJZVFpDU2pkWGMxRRAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2xSUFJGaEZRbDlGWVdOM2JrUnJZVFpDU2pkWGMxRRAB",
@@ -413,7 +436,8 @@
    "eliminada": false,
    "areas": [],
    "colaboradores": [],
-   "clasificada": "sin texto"
+   "clasificada": "sin texto",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT25ob2RYSlBTRmRXTFhsRVIzbEZTWHAyVUVwbWNuYxAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT25ob2RYSlBTRmRXTFhsRVIzbEZTWHAyVUVwbWNuYxAB",
@@ -432,7 +456,8 @@
    "colaboradores": [
     "Sole"
    ],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT21sc2RXcFlXRFYyVm5wVk5rNVBSbU5ZTlc5M2RVRRAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT21sc2RXcFlXRFYyVm5wVk5rNVBSbU5ZTlc5M2RVRRAB",
@@ -447,7 +472,8 @@
    "eliminada": false,
    "areas": [],
    "colaboradores": [],
-   "clasificada": "sin texto"
+   "clasificada": "sin texto",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT20xV1RtRmZia0ZuVDJ4SVR6WmlXbTlyTWtKcWMzYxAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT20xV1RtRmZia0ZuVDJ4SVR6WmlXbTlyTWtKcWMzYxAB",
@@ -465,7 +491,8 @@
     "armeria"
    ],
    "colaboradores": [],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT2psQmRtSk5aVVJTTlhSQ1ZGZHBWM0p4WjBKdk5uYxAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2psQmRtSk5aVVJTTlhSQ1ZGZHBWM0p4WjBKdk5uYxAB",
@@ -484,7 +511,8 @@
    "colaboradores": [
     "Soledad"
    ],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT2xKWlVWODFiRkp6Wld0dVYxRjZSemR2UW5WTlZYYxAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2xKWlVWODFiRkp6Wld0dVYxRjZSemR2UW5WTlZYYxAB",
@@ -502,7 +530,8 @@
     "electro"
    ],
    "colaboradores": [],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT25SdVgwMUJSMmx6Ym5sWFJWODNZM05DTUdWTmNWRRAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT25SdVgwMUJSMmx6Ym5sWFJWODNZM05DTUdWTmNWRRAB",
@@ -519,7 +548,8 @@
     "ventas"
    ],
    "colaboradores": [],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT2tOd1VHRm5hVFZtTmpVMFRFY3lPR3RFTldwVk1GRRAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2tOd1VHRm5hVFZtTmpVMFRFY3lPR3RFTldwVk1GRRAB",
@@ -534,7 +564,8 @@
    "eliminada": false,
    "areas": [],
    "colaboradores": [],
-   "clasificada": "sin texto"
+   "clasificada": "sin texto",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT21aM01VMUhOVVJaY210d2FUbHdhMkpwU3pRNVNsRRAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT21aM01VMUhOVVJaY210d2FUbHdhMkpwU3pRNVNsRRAB",
@@ -549,7 +580,8 @@
    "eliminada": false,
    "areas": [],
    "colaboradores": [],
-   "clasificada": "sin texto"
+   "clasificada": "sin texto",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT21GZk5rbHpOVVpMT0U4NVkydFlWR1ZKVTNCcVgyYxAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT21GZk5rbHpOVVpMT0U4NVkydFlWR1ZKVTNCcVgyYxAB",
@@ -566,7 +598,8 @@
     "ventas"
    ],
    "colaboradores": [],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT2pnMmNGTTFiMDFIYVdwMVluTmZWVlZ1VVdwak5VRRAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2pnMmNGTTFiMDFIYVdwMVluTmZWVlZ1VVdwak5VRRAB",
@@ -581,7 +614,8 @@
    "eliminada": false,
    "areas": [],
    "colaboradores": [],
-   "clasificada": "sin texto"
+   "clasificada": "sin texto",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT25reVVUaExXVmhpY0MxV1dsRnBkbmRJVDNaMGRIYxAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT25reVVUaExXVmhpY0MxV1dsRnBkbmRJVDNaMGRIYxAB",
@@ -598,7 +632,8 @@
     "ventas"
    ],
    "colaboradores": [],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT2pocFIxb3RiSE5XY25wUGRsRm9YMDR4WmxGc01rRRAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2pocFIxb3RiSE5XY25wUGRsRm9YMDR4WmxGc01rRRAB",
@@ -615,7 +650,8 @@
     "ventas"
    ],
    "colaboradores": [],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT2t0d1ZVbHpTV1pzVjBORWFIQmpXR00wVUdGeFptYxAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2t0d1ZVbHpTV1pzVjBORWFIQmpXR00wVUdGeFptYxAB",
@@ -634,7 +670,8 @@
    "colaboradores": [
     "Pablo"
    ],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT25kNWJrdHBTRTlGWlZoUlVXNDVlbEp6YTBscGVVRRAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT25kNWJrdHBTRTlGWlZoUlVXNDVlbEp6YTBscGVVRRAB",
@@ -652,7 +689,8 @@
     "deportes"
    ],
    "colaboradores": [],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT25SWmNqTnhVbkV4ZFdsNGRuUlVWaTFPTTBoQmQxRRAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT25SWmNqTnhVbkV4ZFdsNGRuUlVWaTFPTTBoQmQxRRAB",
@@ -671,7 +709,8 @@
    "colaboradores": [
     "Pablo"
    ],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT2s5dmNrOXhabEpMVFVjdFdUbHJSMWhvZG1WWVdtYxAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2s5dmNrOXhabEpMVFVjdFdUbHJSMWhvZG1WWVdtYxAB",
@@ -689,7 +728,8 @@
     "Pablo",
     "Sole"
    ],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT2paRVEyOVdhMmhTT1RWTFowWlRXbDlaV0ZwbVRWRRAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2paRVEyOVdhMmhTT1RWTFowWlRXbDlaV0ZwbVRWRRAB",
@@ -706,7 +746,8 @@
     "ventas"
    ],
    "colaboradores": [],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT2paTFpVdFlabEpvWDNkbE1XOXNUMDVJZDNSSGRFRRAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2paTFpVdFlabEpvWDNkbE1XOXNUMDVJZDNSSGRFRRAB",
@@ -723,7 +764,8 @@
     "ventas"
    ],
    "colaboradores": [],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT21wUFNrRmxVMjV4U3pCVVNFbEZkVTlqU2t4VlNGRRAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT21wUFNrRmxVMjV4U3pCVVNFbEZkVTlqU2t4VlNGRRAB",
@@ -741,7 +783,8 @@
     "deportes"
    ],
    "colaboradores": [],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT2xkaVowSk1PVU53T1VSeVkxVnZNRFJOUTBOSlEwRRAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2xkaVowSk1PVU53T1VSeVkxVnZNRFJOUTBOSlEwRRAB",
@@ -758,7 +801,8 @@
     "ventas"
    ],
    "colaboradores": [],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT2xKaGRVcDFlbWRmWm1Wa1JXOVJOVk5OVDFOdFVFRRAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2xKaGRVcDFlbWRmWm1Wa1JXOVJOVk5OVDFOdFVFRRAB",
@@ -773,7 +817,8 @@
    "eliminada": false,
    "areas": [],
    "colaboradores": [],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT2xSelJtWkJXVFJTWVhaTWVHMVFUVVV3U2pJemVXYxAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2xSelJtWkJXVFJTWVhaTWVHMVFUVVV3U2pJemVXYxAB",
@@ -792,7 +837,8 @@
    "colaboradores": [
     "Pablo"
    ],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT2xSTWRrUXlXRnBsTW14ZlpXVmllbWxJUlZWMVpXYxAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2xSTWRrUXlXRnBsTW14ZlpXVmllbWxJUlZWMVpXYxAB",
@@ -811,7 +857,8 @@
    "colaboradores": [
     "Pablo"
    ],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT2xCTmRIQTNWSFozUlRsV2FEbEpURlZtWTNObVNIYxAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2xCTmRIQTNWSFozUlRsV2FEbEpURlZtWTNObVNIYxAB",
@@ -829,7 +876,8 @@
     "deportes"
    ],
    "colaboradores": [],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT21reWREZGhNWGc0VjJneFdrZFlUVUZIUW5WR05FRRAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT21reWREZGhNWGc0VjJneFdrZFlUVUZIUW5WR05FRRAB",
@@ -846,7 +894,8 @@
     "ventas"
    ],
    "colaboradores": [],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT2taalpWZENVa1JQZFVkT2FVWm1hVmt5V21aUVVXYxAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2taalpWZENVa1JQZFVkT2FVWm1hVmt5V21aUVVXYxAB",
@@ -863,7 +912,8 @@
     "ventas"
    ],
    "colaboradores": [],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT2xoa1FtbEJkbEJGTFRGUWIwWk9hMnBRY1hGQ1ZFRRAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2xoa1FtbEJkbEJGTFRGUWIwWk9hMnBRY1hGQ1ZFRRAB",
@@ -880,7 +930,8 @@
     "ventas"
    ],
    "colaboradores": [],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT2xnM2NuVXdkRmxtYW1wb2RtWm9aVEJ1TUd4NmJHYxAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2xnM2NuVXdkRmxtYW1wb2RtWm9aVEJ1TUd4NmJHYxAB",
@@ -897,7 +948,8 @@
     "ventas"
    ],
    "colaboradores": [],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT21WR2QxZGFUVzVZWW1RNFFWcEZNa3hIU2taWk1GRRAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT21WR2QxZGFUVzVZWW1RNFFWcEZNa3hIU2taWk1GRRAB",
@@ -912,7 +964,8 @@
    "eliminada": false,
    "areas": [],
    "colaboradores": [],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT25Sc01XZElNaTFGU20wMGNWOWFiMjVJYUZwUlYwRRAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT25Sc01XZElNaTFGU20wMGNWOWFiMjVJYUZwUlYwRRAB",
@@ -931,7 +984,8 @@
    "colaboradores": [
     "Pablo"
    ],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT2xFNU1IUnNZalIzVDNCTVNVaFVVWEE1ZUZKT1lrRRAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2xFNU1IUnNZalIzVDNCTVNVaFVVWEE1ZUZKT1lrRRAB",
@@ -948,7 +1002,8 @@
     "ventas"
    ],
    "colaboradores": [],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT21aVWNtdEtPVk4zVG1vNGFESldVblp5VmxGSlFYYxAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT21aVWNtdEtPVk4zVG1vNGFESldVblp5VmxGSlFYYxAB",
@@ -969,7 +1024,8 @@
     "Lucas",
     "Natalia"
    ],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT2xoUU1IcFJjRXQwVmpGTFgzbEhTV2RHVEZsZlJrRRAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2xoUU1IcFJjRXQwVmpGTFgzbEhTV2RHVEZsZlJrRRAB",
@@ -989,7 +1045,8 @@
    "colaboradores": [
     "Natalia"
    ],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT25OMlNVeEdUMk5ZZDFWVFdreEhZa2RyVDNwdlNFRRAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT25OMlNVeEdUMk5ZZDFWVFdreEhZa2RyVDNwdlNFRRAB",
@@ -1007,7 +1064,8 @@
     "deportes"
    ],
    "colaboradores": [],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT2xWSFRqSjRNekJTYkhWcllUQnBNbVZZVDJaaVZIYxAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2xWSFRqSjRNekJTYkhWcllUQnBNbVZZVDJaaVZIYxAB",
@@ -1022,7 +1080,8 @@
    "eliminada": false,
    "areas": [],
    "colaboradores": [],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT2sxRGVsaHBhbHBPVTJobk0wRmtXREZWVTNNemJFRRAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2sxRGVsaHBhbHBPVTJobk0wRmtXREZWVTNNemJFRRAB",
@@ -1041,7 +1100,8 @@
    "colaboradores": [
     "Natalia"
    ],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT2tKZlJYQXRWM1o0VVhSbGJqbGxNVkZUTURkSVFWRRAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2tKZlJYQXRWM1o0VVhSbGJqbGxNVkZUTURkSVFWRRAB",
@@ -1058,7 +1118,8 @@
     "ventas"
    ],
    "colaboradores": [],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT25wNU9UaHZlV2N0ZFVWZlMyWnFkbUk0UW5SclNGRRAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT25wNU9UaHZlV2N0ZFVWZlMyWnFkbUk0UW5SclNGRRAB",
@@ -1078,7 +1139,8 @@
    "colaboradores": [
     "Natalia"
    ],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "ChZDSUhNMG9nS0VJQ0FnSURNLWFqVWFREAE": {
    "id": "ChZDSUhNMG9nS0VJQ0FnSURNLWFqVWFREAE",
@@ -1095,7 +1157,8 @@
     "ventas"
    ],
    "colaboradores": [],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": true
   },
   "Ci9DQUlRQUNvZENodHljRjlvT2xGSVJrUTVOekJhVWpGYVpURlNRa2RGVFRKak9FRRAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2xGSVJrUTVOekJhVWpGYVpURlNRa2RGVFRKak9FRRAB",
@@ -1112,7 +1175,8 @@
     "ventas"
    ],
    "colaboradores": [],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT2s5MVExOWxOMGRxVDE5MVJVMHpaWEZJUmxwbVgyYxAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2s5MVExOWxOMGRxVDE5MVJVMHpaWEZJUmxwbVgyYxAB",
@@ -1127,7 +1191,8 @@
    "eliminada": false,
    "areas": [],
    "colaboradores": [],
-   "clasificada": "sin texto"
+   "clasificada": "sin texto",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT25CYWEzaEdMVkpUUzFacGJpMHdVV3gzYVY5Q1QxRRAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT25CYWEzaEdMVkpUUzFacGJpMHdVV3gzYVY5Q1QxRRAB",
@@ -1146,13 +1211,14 @@
    "colaboradores": [
     "Natalia"
    ],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT21kbk5XWmhiM0ZWUm5oeGVYUkVORlUyZWw4M2RWRRAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT21kbk5XWmhiM0ZWUm5oeGVYUkVORlUyZWw4M2RWRRAB",
    "autor": "Patricia Beatriz Dana",
    "estrellas": 5,
-   "texto": "ME ENCANTA LA ROPA DE DEPORTES!!!<br>Y sobre todo la atención de Sole que ella ya conoce mis gustos!!<br>Pido que me atienda ella!!👏",
+   "texto": "ME ENCANTA LA ROPA DE DEPORTES!!!\nY sobre todo la atención de Sole que ella ya conoce mis gustos!!\nPido que me atienda ella!!👏",
    "fecha": "2026-10-28T13:06:25.149Z",
    "dia": "2026-10-28",
    "url": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21kbk5XWmhiM0ZWUm5oeGVYUkVORlUyZWw4M2RWRRAB!2m1!1s0x0:0x898bd33ee042447!3m1!1s2@1:CAIQACodChtycF9oOmdnNWZhb3FVRnhxeXRENFU2el83dVE%7C%7C?hl=es-419",
@@ -1166,7 +1232,8 @@
    "colaboradores": [
     "Sole"
    ],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT2tGSFIwUkdYMnRzYjA1eWNWaDJTalIxT0hsMlQxRRAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2tGSFIwUkdYMnRzYjA1eWNWaDJTalIxT0hsMlQxRRAB",
@@ -1184,7 +1251,8 @@
     "armeria"
    ],
    "colaboradores": [],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT21wcmVsRnJXRlZaYUhOaWNGaDFZMEZVVmpKSlozYxAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT21wcmVsRnJXRlZaYUhOaWNGaDFZMEZVVmpKSlozYxAB",
@@ -1199,7 +1267,8 @@
    "eliminada": false,
    "areas": [],
    "colaboradores": [],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT21kVFRVdHlVV3d3UzBWRU9HZHpUamhsVUcxVFRrRRAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT21kVFRVdHlVV3d3UzBWRU9HZHpUamhsVUcxVFRrRRAB",
@@ -1217,7 +1286,8 @@
     "deportes"
    ],
    "colaboradores": [],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT25GYWJGbFZZa2h6Y1d4WGR6QlFZM2RzVERSZlpsRRAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT25GYWJGbFZZa2h6Y1d4WGR6QlFZM2RzVERSZlpsRRAB",
@@ -1236,7 +1306,8 @@
    "colaboradores": [
     "Pablo"
    ],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT2pScVIyUlZNekp2T0ZWalNrOUtXbk5sUTNGQmQwRRAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2pScVIyUlZNekp2T0ZWalNrOUtXbk5sUTNGQmQwRRAB",
@@ -1254,7 +1325,8 @@
     "electro"
    ],
    "colaboradores": [],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT2w5WGQxVlRVMDl3V1RWdVRUSlhaRjl2VHpKQmFWRRAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2w5WGQxVlRVMDl3V1RWdVRUSlhaRjl2VHpKQmFWRRAB",
@@ -1274,7 +1346,8 @@
    "colaboradores": [
     "Pablo"
    ],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT2tzMVUwMXZNMVZXTkZKYU5YSlZSRVpCU2xsWVEyYxAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2tzMVUwMXZNMVZXTkZKYU5YSlZSRVpCU2xsWVEyYxAB",
@@ -1293,13 +1366,14 @@
     "electro"
    ],
    "colaboradores": [],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT25KTVpteEpTVTE0T1dwSmVTMDJaWEY1T0hCZlJrRRAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT25KTVpteEpTVTE0T1dwSmVTMDJaWEY1T0hCZlJrRRAB",
    "autor": "Pablo Aguilera",
    "estrellas": 5,
-   "texto": "Cómo siempre una atención increíble!!<br>Muchísimas gracias!! A todo su equipo..!!",
+   "texto": "Cómo siempre una atención increíble!!\nMuchísimas gracias!! A todo su equipo..!!",
    "fecha": "2026-10-27T22:52:29.692Z",
    "dia": "2026-10-27",
    "url": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25KTVpteEpTVTE0T1dwSmVTMDJaWEY1T0hCZlJrRRAB!2m1!1s0x0:0x898bd33ee042447!3m1!1s2@1:CAIQACodChtycF9oOnJMZmxJSU14OWpJeS02ZXF5OHBfRkE%7C%7C?hl=es-419",
@@ -1310,7 +1384,8 @@
     "ventas"
    ],
    "colaboradores": [],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT25ScGVWOUtWbWRxYWxCcExWSk9TR3d3ZDNCeFEwRRAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT25ScGVWOUtWbWRxYWxCcExWSk9TR3d3ZDNCeFEwRRAB",
@@ -1325,13 +1400,14 @@
    "eliminada": false,
    "areas": [],
    "colaboradores": [],
-   "clasificada": "sin texto"
+   "clasificada": "sin texto",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT205Tk5IcGFSMHRxWDFGVVdtZG5WVEZDUlhkSk1FRRAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT205Tk5IcGFSMHRxWDFGVVdtZG5WVEZDUlhkSk1FRRAB",
    "autor": "Tia Ana Toral",
    "estrellas": 5,
-   "texto": "Muy buena mercadería<br>Muy buena atención de Pablo",
+   "texto": "Muy buena mercadería\nMuy buena atención de Pablo",
    "fecha": "2026-10-27T22:08:11.884Z",
    "dia": "2026-10-27",
    "url": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT205Tk5IcGFSMHRxWDFGVVdtZG5WVEZDUlhkSk1FRRAB!2m1!1s0x0:0x898bd33ee042447!3m1!1s2@1:CAIQACodChtycF9oOm9NNHpaR0tqX1FUWmdnVTFCRXdJMEE%7C%7C?hl=es-419",
@@ -1344,7 +1420,8 @@
    "colaboradores": [
     "Pablo"
    ],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "ChdDSUhNMG9nS0VJQ0FnSUR5eWVTTnNnRRAB": {
    "id": "ChdDSUhNMG9nS0VJQ0FnSUR5eWVTTnNnRRAB",
@@ -1362,7 +1439,8 @@
     "armeria"
    ],
    "colaboradores": [],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": true
   },
   "Ci9DQUlRQUNvZENodHljRjlvT2t0T2JrUnlWVlpLUlROYU1rSkhlSEEzVGxCb1RFRRAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2t0T2JrUnlWVlpLUlROYU1rSkhlSEEzVGxCb1RFRRAB",
@@ -1382,7 +1460,8 @@
    "colaboradores": [
     "Tomas"
    ],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT2pSek0weFdRbFZ2Y25wdWIwRnNUMjVFZUcxMGVVRRAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2pSek0weFdRbFZ2Y25wdWIwRnNUMjVFZUcxMGVVRRAB",
@@ -1399,7 +1478,8 @@
     "ventas"
    ],
    "colaboradores": [],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT2pNelkxbzVTVzVKY0ZwemNFSlplSFpWT0ROQmJWRRAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2pNelkxbzVTVzVKY0ZwemNFSlplSFpWT0ROQmJWRRAB",
@@ -1416,7 +1496,8 @@
     "ventas"
    ],
    "colaboradores": [],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT2xsUFRHcExhV3hVTVUxQ2RHbEdiMjVwVVhWaU5HYxAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2xsUFRHcExhV3hVTVUxQ2RHbEdiMjVwVVhWaU5HYxAB",
@@ -1433,7 +1514,8 @@
     "ventas"
    ],
    "colaboradores": [],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT2tWRVF6TlhiMEZJUkdGUlgxazJSRTVDZUY5dU9IYxAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2tWRVF6TlhiMEZJUkdGUlgxazJSRTVDZUY5dU9IYxAB",
@@ -1450,7 +1532,8 @@
     "ventas"
    ],
    "colaboradores": [],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT21aV2EyVnFNV3c0YjJsMVNEWkxiMEZXVWxoMGFYYxAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT21aV2EyVnFNV3c0YjJsMVNEWkxiMEZXVWxoMGFYYxAB",
@@ -1465,7 +1548,8 @@
    "eliminada": false,
    "areas": [],
    "colaboradores": [],
-   "clasificada": "sin texto"
+   "clasificada": "sin texto",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT2s1Q1gxZDVZa3hUTUhremRIZGhiMDgxUW5WSmFrRRAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2s1Q1gxZDVZa3hUTUhremRIZGhiMDgxUW5WSmFrRRAB",
@@ -1482,7 +1566,8 @@
     "ventas"
    ],
    "colaboradores": [],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT21GQ05VTkNOM05CU1hOMVlVMHlZV0pHZHpkck1tYxAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT21GQ05VTkNOM05CU1hOMVlVMHlZV0pHZHpkck1tYxAB",
@@ -1499,7 +1584,8 @@
     "ventas"
    ],
    "colaboradores": [],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   },
   "Ci9DQUlRQUNvZENodHljRjlvT2pGWmRUaFJUVzlmWlU1WVMyVTFObTFqTkdSelRGRRAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT2pGWmRUaFJUVzlmWlU1WVMyVTFObTFqTkdSelRGRRAB",
@@ -1516,15 +1602,16 @@
     "ventas"
    ],
    "colaboradores": [],
-   "clasificada": "palabras"
+   "clasificada": "palabras",
+   "antigua": false
   }
  },
  "ficha": {
   "puntaje": 4.7,
   "cantidad": 271,
-  "al": "2026-11-05T00:32:48.304Z"
+  "al": "2026-11-05T13:15:40.587Z"
  },
- "ultima_ok": "2026-11-05T00:32:48.305Z",
+ "ultima_ok": "2026-11-05T13:15:40.587Z",
  "ultima_completa": "2026-11-05T00:32:48.305Z",
  "inicio": "2026-10-27"
 }
