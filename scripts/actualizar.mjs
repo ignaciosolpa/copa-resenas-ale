@@ -148,7 +148,9 @@ async function main() {
     return;
   }
   const hayHistorial = Object.keys(store.resenas).length > 0;
-  const completa = process.env.COMPLETA === 'true' || !store.ultima_completa || diasEntre(diaArg(store.ultima_completa), hoy) >= 7;
+  // Si cambia la fecha de inicio, se relee todo desde la nueva fecha
+  const completa = process.env.COMPLETA === 'true' || !store.ultima_completa || store.inicio !== CFG.inicio
+    || diasEntre(diaArg(store.ultima_completa), hoy) >= 7;
   const desde = completa ? CFG.inicio : [sumarDias(hoy, -10), CFG.inicio].sort().pop();
   const maximo = completa ? 1000 : 200;
 
@@ -190,6 +192,7 @@ async function main() {
       console.warn(`Lectura completa parcial (${traidas.length} de ${activas.length}): no marco eliminadas`);
     }
     store.ultima_completa = ahora;
+    store.inicio = CFG.inicio;
   }
 
   store.ultima_ok = ahora;
