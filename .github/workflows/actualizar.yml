@@ -2,8 +2,13 @@ name: Actualizar la Copa de Reseñas
 
 on:
   schedule:
-    - cron: "30 13 * * *" # 10:30 h de Argentina
-    - cron: "0 15 * * *" # 12:00 h, de respaldo: si ya se actualizó, no hace nada
+    # GitHub atrasa o saltea los horarios en punto: se usan minutos sueltos y varios respaldos.
+    # Si ya se actualizó en el día, los respaldos no hacen nada.
+    - cron: "7 13 * * *" # 10:07 h de Argentina
+    - cron: "37 13 * * *" # 10:37 h
+    - cron: "13 14 * * *" # 11:13 h
+    - cron: "43 15 * * *" # 12:43 h
+    - cron: "19 19 * * *" # 16:19 h
   push: # cuando se cambia el código o la configuración, se actualiza en el momento
     branches: [main]
     paths: ["scripts/**", "config.json", "marca/**", ".github/workflows/**"]
