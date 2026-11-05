@@ -131,6 +131,8 @@ tr.lider td{background:rgba(255,214,10,.05)}
 .segs{display:flex;height:22px;border-radius:99px;overflow:hidden;gap:2px;background:var(--panel)}
 .res p{white-space:pre-line}
 .segs i{display:block;height:100%;transition:flex .8s}
+.nota{background:rgba(255,214,10,.08);border:1px solid rgba(255,214,10,.35);border-radius:14px;padding:12px 16px;margin-top:14px;line-height:1.5;font-size:14px}
+.nota b{color:var(--brand)}
 .cuentan{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:12px}
 /* reseñas */
 .filtros{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:6px}
@@ -166,6 +168,7 @@ footer img{height:22px;opacity:.8}
   <div>
     <div class="kicker" id="heroKicker"></div>
     <div id="heroEstado" style="margin-top:8px"></div>
+    <div class="nota" id="heroNota" hidden></div>
     <p class="sub" id="heroSub"></p>
     <div class="tiles" id="heroTiles"></div>
     <div class="leyenda"><span><i style="background:var(--brand)"></i>Reseñas que cuentan</span><span><i style="background:var(--brand2)"></i>Donde deberíamos estar hoy</span></div>
@@ -188,14 +191,14 @@ footer img{height:22px;opacity:.8}
 <section class="card"><h2>📅 Reseñas por día</h2><div class="grafico" id="grafico"><div class="tip" id="tip"></div></div>
   <div class="leyenda"><span><i style="background:var(--brand)"></i>Reseñas que cuentan</span><span><i style="background:transparent;border:2px dashed var(--brand2);width:14px;height:0;border-radius:0"></i><span id="leyRitmo"></span></span></div></section>
 
-<section class="card"><h2>✅ ¿Cuáles cuentan?</h2><div class="segs" id="segs"></div><div class="cuentan" id="cuentan"></div>
+<section class="card"><h2>✅ ¿Cuáles cuentan?</h2><div class="segs" id="segs"></div><div class="cuentan" id="cuentan"></div><div class="nota" id="notaSinTexto" hidden></div>
   <p style="color:var(--muted);font-size:13px;margin:12px 0 0">Cuenta si tiene <b style="color:var(--text)">texto</b> y <b style="color:var(--text)">4 o 5★</b>. Pedile al cliente que cuente qué compró y quién lo atendió.</p></section>
 
 <section class="card"><h2>💬 Las reseñas</h2><div class="filtros" id="filtros"></div><div id="lista"></div></section>
 
 <section class="card"><details class="reglas"><summary>¿Cómo se cuenta?</summary><ul>
 <li>Se toman las reseñas de la ficha de Google de ALE desde el inicio de la Copa.</li>
-<li>Cuentan las que tienen texto y 4 o 5 estrellas. Las de 1 a 3★ y las que no tienen texto no suman.</li>
+<li>Cuentan las que tienen texto y 4 o 5 estrellas. <b>El texto es el requisito principal de la Copa: es lo que posiciona a ALE en la IA.</b> Las que no tienen texto y las de 1 a 3★ no suman.</li>
 <li>Un área suma cuando la reseña habla de ella (por ejemplo «colchón», «zapatillas», «la entrega») o nombra a alguien de esa área.</li>
 <li>Una reseña vieja que el cliente edita no es nueva: aparece en la lista pero no suma.</li>
 <li>Si Google borra una reseña, se descuenta.</li>
@@ -247,6 +250,8 @@ if(hoy<actual.desde)$('heroEstado').innerHTML='<span class="estado neutro">⏳ E
 else if(hoy>actual.hasta)$('heroEstado').innerHTML=nT>=actual.meta?'<span class="estado ok">✔ ¡Meta cumplida!</span>':'<span class="estado mal">✖ No llegamos a la meta</span>';
 else if(nT>=actual.meta)$('heroEstado').innerHTML='<span class="estado ok">🎉 ¡Meta cumplida!</span>';
 else $('heroEstado').innerHTML=dif>=0?'<span class="estado ok">▲ Vamos '+dif+' arriba del ritmo</span>':'<span class="estado mal">▼ Vamos '+(-dif)+' abajo del ritmo</span>';
+var sinT=en(D.resenas,actual.desde,actual.hasta).filter(function(r){return r.k==='sintexto'}).length;
+if(sinT){$('heroNota').hidden=false;$('heroNota').innerHTML='💬 Además hay <b>'+sinT+' reseña'+(sinT>1?'s':'')+' sin texto</b> que no se cuenta'+(sinT>1?'n':'')+': la Copa pide reseñas con texto, porque el texto es lo que posiciona a ALE en la IA.'}
 $('heroSub').innerHTML='Al día de hoy deberíamos llevar <b>'+esperado+'</b>. '+(faltan?'Faltan <b>'+faltan+'</b> en <b>'+quedan+' días</b>.':'¡Ya llegamos!');
 var porDia=quedan?coma((faltan/quedan).toFixed(1)):'0';
 $('heroTiles').innerHTML=[[faltan,'faltan'],[quedan,'días que quedan'],[porDia,'por día para llegar'],[hoyN+ayer,'entraron hoy y ayer']].map(function(x){return '<div class="tile"><span class="num"'+(typeof x[0]==='number'?' data-n="'+x[0]+'"':'')+'>'+x[0]+'</span><span>'+x[1]+'</span></div>'}).join('');
@@ -333,6 +338,8 @@ function pintar(){var lista=en(D.resenas,sel.desde,sel.hasta),val=lista.filter(f
  var nS=val.length,nT2=lista.filter(function(r){return r.k==='sintexto'}).length,nB=lista.filter(function(r){return r.k==='baja'}).length,nE=lista.filter(function(r){return r.k==='editada'}).length,tt=Math.max(1,lista.length);
  $('segs').innerHTML='<i style="flex:'+nS+';background:var(--ok)" title="Cuentan: '+nS+'"></i><i style="flex:'+nT2+';background:#6F6F75" title="Sin texto: '+nT2+'"></i><i style="flex:'+nB+';background:var(--bad)" title="1 a 3★: '+nB+'"></i><i style="flex:'+nE+';background:var(--plata)" title="Viejas editadas: '+nE+'"></i>';
  $('cuentan').innerHTML=[[nS,'✅ Cuentan','var(--ok)'],[nT2,'💬 Sin texto','var(--muted)'],[nB,'⚠️ De 1 a 3★','var(--bad)']].concat(nE?[[nE,'🕓 Viejas editadas','var(--plata)']]:[]).map(function(x){return '<div class="tile"><span class="num" style="color:'+x[2]+'">'+x[0]+'</span><span>'+x[1]+' · '+Math.round(100*x[0]/tt)+'%</span></div>'}).join('');
+ var nota=$('notaSinTexto');nota.hidden=!nT2;
+ if(nT2)nota.innerHTML='💬 <b>'+nT2+' reseña'+(nT2>1?'s':'')+' sin texto no se cuenta'+(nT2>1?'n':'')+'.</b> El requisito principal de la Copa es que la reseña tenga texto: el texto es lo que posiciona a ALE en la IA (ChatGPT, Gemini y el resumen de Google). Pedile al cliente que cuente con sus palabras cómo lo atendieron y qué compró.';
  pintarLista(lista)}
 pintarTabs();pintar();
 })();
