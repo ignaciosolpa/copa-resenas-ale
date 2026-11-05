@@ -77,13 +77,18 @@ async function traerResenas(desde, maximo) {
   return apifyJSON(`https://api.apify.com/v2/datasets/${run.defaultDatasetId}/items?clean=true&format=json`);
 }
 
+const limpiarTexto = (t) => (t || '').replace(/<br\s*\/?>/gi, '\n').trim();
+// Google cambió el formato de los ID de reseña: los viejos llevan «CIHM0og». Una reseña con ID viejo
+// que aparece como nueva es una reseña antigua que el cliente editó: no es una reseña nueva.
+const esAntigua = (id) => Buffer.from(String(id), 'base64').toString('latin1').includes('CIHM0og');
+
 function normalizar(it) {
   const fecha = it.publishedAtDate || it.publishAt || it.date;
   return {
     id: it.reviewId || it.id,
     autor: (it.name || it.reviewerName || '').trim(),
     estrellas: Number(it.stars ?? it.rating ?? 0),
-    texto: (it.text || '').trim(),
+    texto: limpiarTexto(it.text),
     fecha,
     dia: fecha ? diaArg(fecha) : null,
     url: it.reviewUrl || '',
@@ -113,6 +118,8 @@ const capital = (n) => n.charAt(0).toUpperCase() + n.slice(1);
 
 function clasificar(resenas) {
   for (const r of resenas) {
+    r.texto = limpiarTexto(r.texto);
+    r.antigua = esAntigua(r.id);
     if (!r.texto) {
       Object.assign(r, { areas: [], colaboradores: [], clasificada: 'sin texto' });
       continue;
@@ -137,7 +144,7 @@ function clasificar(resenas) {
   }
 }
 
-const cuenta = (r) => !r.eliminada && r.estrellas >= CFG.regla.estrellas_minimas && r.texto.length >= CFG.regla.caracteres_minimos;
+const cuenta = (r) => !r.eliminada && !r.antigua && r.estrellas >= CFG.regla.estrellas_minimas && r.texto.length >= CFG.regla.caracteres_minimos;
 
 // ---------- corrida ----------
 async function main() {

@@ -18,7 +18,7 @@ export async function armarHTML(store, { CFG, hoy, cuenta }) {
       n: (r.autor || '').split(' ')[0] || 'Cliente',
       ar: r.areas || [],
       c: r.colaboradores || [],
-      k: cuenta(r) ? 'si' : r.estrellas < CFG.regla.estrellas_minimas ? 'baja' : 'sintexto',
+      k: r.antigua ? 'editada' : cuenta(r) ? 'si' : r.estrellas < CFG.regla.estrellas_minimas ? 'baja' : 'sintexto',
     }));
 
   const datos = {
@@ -129,6 +129,7 @@ tr.lider td{background:rgba(255,214,10,.05)}
 .tip b{color:var(--brand)}
 /* segmentos */
 .segs{display:flex;height:22px;border-radius:99px;overflow:hidden;gap:2px;background:var(--panel)}
+.res p{white-space:pre-line}
 .segs i{display:block;height:100%;transition:flex .8s}
 .cuentan{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:12px}
 /* reseñas */
@@ -196,6 +197,7 @@ footer img{height:22px;opacity:.8}
 <li>Se toman las reseñas de la ficha de Google de ALE desde el inicio de la Copa.</li>
 <li>Cuentan las que tienen texto y 4 o 5 estrellas. Las de 1 a 3★ y las que no tienen texto no suman.</li>
 <li>Un área suma cuando la reseña habla de ella (por ejemplo «colchón», «zapatillas», «la entrega») o nombra a alguien de esa área.</li>
+<li>Una reseña vieja que el cliente edita no es nueva: aparece en la lista pero no suma.</li>
 <li>Si Google borra una reseña, se descuenta.</li>
 <li>La página se actualiza sola todos los días a las 11 h.</li></ul></details></section>
 
@@ -312,7 +314,7 @@ function pintarLista(lista){var fl=lista.filter(function(r){return filtro==='tod
  if(!fl.length){$('lista').innerHTML='<p class="vacio">Todavía no hay reseñas acá.</p>';return}
  $('lista').innerHTML=fl.slice(0,visibles).map(function(r){var f=dt(r.d);
   var est='<span class="est">'+'★★★★★'.slice(0,r.s)+'<span class="off">'+'★★★★★'.slice(r.s)+'</span></span>';
-  var chip=r.k==='si'?'<span class="chip ok">Cuenta</span>':r.k==='baja'?'<span class="chip mal">No cuenta · menos de 4★</span>':'<span class="chip">No cuenta · sin texto</span>';
+  var chip=r.k==='si'?'<span class="chip ok">Cuenta</span>':r.k==='baja'?'<span class="chip mal">No cuenta · menos de 4★</span>':r.k==='editada'?'<span class="chip">No cuenta · reseña vieja editada</span>':'<span class="chip">No cuenta · sin texto</span>';
   var tags=r.ar.map(function(x){return '<span class="tag">'+esc(nombreArea(x))+'</span>'}).concat(r.c.map(function(c){return '<span class="tag col">👤 '+esc(c)+'</span>'})).join('');
   return '<div class="res"><div class="av">'+esc(r.n.charAt(0).toUpperCase())+'</div><div><div class="cab"><span class="n">'+esc(r.n)+'</span>'+est+'<span class="f">'+DIAS[f.getUTCDay()]+' '+fm(r.d)+'</span>'+chip+'</div>'+
    (r.t?'<p>'+esc(r.t)+'</p>':'<p class="sin">(sin texto)</p>')+(tags?'<div class="tags">'+tags+'</div>':'')+'</div></div>'}).join('')+
@@ -328,9 +330,9 @@ function pintar(){var lista=en(D.resenas,sel.desde,sel.hasta),val=lista.filter(f
  podio($('podioColab'),filasC,function(n){return '<div class="ico">👤</div>'+esc(n)});
  tabla($('tablaColab'),filasC,function(n){return esc(n)},val.length,'Todavía nadie fue nombrado en este período. ¡Que el cliente cuente quién lo atendió!');
  grafico(lista,sel);
- var nS=val.length,nT2=lista.filter(function(r){return r.k==='sintexto'}).length,nB=lista.filter(function(r){return r.k==='baja'}).length,tt=Math.max(1,lista.length);
- $('segs').innerHTML='<i style="flex:'+nS+';background:var(--ok)" title="Cuentan: '+nS+'"></i><i style="flex:'+nT2+';background:#6F6F75" title="Sin texto: '+nT2+'"></i><i style="flex:'+nB+';background:var(--bad)" title="1 a 3★: '+nB+'"></i>';
- $('cuentan').innerHTML=[[nS,'✅ Cuentan','var(--ok)'],[nT2,'💬 Sin texto','var(--muted)'],[nB,'⚠️ De 1 a 3★','var(--bad)']].map(function(x){return '<div class="tile"><span class="num" style="color:'+x[2]+'">'+x[0]+'</span><span>'+x[1]+' · '+Math.round(100*x[0]/tt)+'%</span></div>'}).join('');
+ var nS=val.length,nT2=lista.filter(function(r){return r.k==='sintexto'}).length,nB=lista.filter(function(r){return r.k==='baja'}).length,nE=lista.filter(function(r){return r.k==='editada'}).length,tt=Math.max(1,lista.length);
+ $('segs').innerHTML='<i style="flex:'+nS+';background:var(--ok)" title="Cuentan: '+nS+'"></i><i style="flex:'+nT2+';background:#6F6F75" title="Sin texto: '+nT2+'"></i><i style="flex:'+nB+';background:var(--bad)" title="1 a 3★: '+nB+'"></i><i style="flex:'+nE+';background:var(--plata)" title="Viejas editadas: '+nE+'"></i>';
+ $('cuentan').innerHTML=[[nS,'✅ Cuentan','var(--ok)'],[nT2,'💬 Sin texto','var(--muted)'],[nB,'⚠️ De 1 a 3★','var(--bad)']].concat(nE?[[nE,'🕓 Viejas editadas','var(--plata)']]:[]).map(function(x){return '<div class="tile"><span class="num" style="color:'+x[2]+'">'+x[0]+'</span><span>'+x[1]+' · '+Math.round(100*x[0]/tt)+'%</span></div>'}).join('');
  pintarLista(lista)}
 pintarTabs();pintar();
 })();
