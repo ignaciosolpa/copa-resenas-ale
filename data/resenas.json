@@ -1604,14 +1604,48 @@
    "colaboradores": [],
    "clasificada": "palabras",
    "antigua": false
+  },
+  "Ci9DQUlRQUNvZENodHljRjlvT21ST2JqaE5aSGQxVjBaM2JWOW1URmhWTFhWbVdtYxAB": {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21ST2JqaE5aSGQxVjBaM2JWOW1URmhWTFhWbVdtYxAB",
+   "autor": "Cecilia Birolo",
+   "estrellas": 5,
+   "texto": "Muy buena atencion y predisposición.... siempre como en familia... totalmente agradecidos",
+   "fecha": "2026-11-06T12:21:31.929Z",
+   "dia": "2026-11-06",
+   "url": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21ST2JqaE5aSGQxVjBaM2JWOW1URmhWTFhWbVdtYxAB!2m1!1s0x0:0x898bd33ee042447!3m1!1s2@1:CAIQACodChtycF9oOmRObjhNZHd1V0Z3bV9mTFhVLXVmWmc%7C%7C?hl=es-419",
+   "respondida": false,
+   "vista": "2026-11-06T19:55:29.759Z",
+   "eliminada": false,
+   "antigua": false,
+   "areas": [
+    "ventas"
+   ],
+   "colaboradores": [],
+   "clasificada": "palabras"
+  },
+  "Ci9DQUlRQUNvZENodHljRjlvT21OQmRrWTFVME13WTNJdE9XZG9iRE13YVcxWVdVRRAB": {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21OQmRrWTFVME13WTNJdE9XZG9iRE13YVcxWVdVRRAB",
+   "autor": "franco vargas",
+   "estrellas": 5,
+   "texto": "",
+   "fecha": "2026-11-05T21:53:06.895Z",
+   "dia": "2026-11-05",
+   "url": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21OQmRrWTFVME13WTNJdE9XZG9iRE13YVcxWVdVRRAB!2m1!1s0x0:0x898bd33ee042447!3m1!1s2@1:CAIQACodChtycF9oOmNBdkY1U0MwY3ItOWdobDMwaW1YWUE%7C%7C?hl=es-419",
+   "respondida": false,
+   "vista": "2026-11-06T19:55:29.759Z",
+   "eliminada": false,
+   "antigua": false,
+   "areas": [],
+   "colaboradores": [],
+   "clasificada": "sin texto"
   }
  },
  "ficha": {
   "puntaje": 4.7,
-  "cantidad": 271,
-  "al": "2026-11-05T15:16:17.631Z"
+  "cantidad": 273,
+  "al": "2026-11-06T19:55:29.759Z"
  },
- "ultima_ok": "2026-11-05T15:16:17.632Z",
+ "ultima_ok": "2026-11-06T19:55:29.759Z",
  "ultima_completa": "2026-11-05T00:32:48.305Z",
  "inicio": "2026-10-27"
 }
