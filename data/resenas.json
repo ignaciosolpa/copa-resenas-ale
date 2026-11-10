@@ -1973,14 +1973,54 @@
    "areas": [],
    "colaboradores": [],
    "clasificada": "sin texto"
+  },
+  "Ci9DQUlRQUNvZENodHljRjlvT2xkQ2VFVlJOR2xNVHpsd04xcG1XVkJCTVhwdE5FRRAB": {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xkQ2VFVlJOR2xNVHpsd04xcG1XVkJCTVhwdE5FRRAB",
+   "autor": "Monica Sanchez",
+   "estrellas": 5,
+   "texto": "Atención exelente de Pablo,  local muy bien diseñado y moderno y miles artículos para todos los gustos y necesidades",
+   "fecha": "2026-11-10T19:47:54.038Z",
+   "dia": "2026-11-10",
+   "url": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xkQ2VFVlJOR2xNVHpsd04xcG1XVkJCTVhwdE5FRRAB!2m1!1s0x0:0x898bd33ee042447!3m1!1s2@1:CAIQACodChtycF9oOldCeEVRNGlMTzlwN1pmWVBBMXptNEE%7C%7C?hl=es-419",
+   "respondida": false,
+   "vista": "2026-11-10T20:24:44.621Z",
+   "eliminada": false,
+   "antigua": false,
+   "areas": [
+    "ventas"
+   ],
+   "colaboradores": [
+    "Pablo"
+   ],
+   "clasificada": "palabras"
+  },
+  "Ci9DQUlRQUNvZENodHljRjlvT25sWVFucDZaazVoWm5ONkxVYzJaVGh3U1hKUFZWRRAB": {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25sWVFucDZaazVoWm5ONkxVYzJaVGh3U1hKUFZWRRAB",
+   "autor": "Lis Smith",
+   "estrellas": 5,
+   "texto": "Excelente atención y predisposición desde el primer momento. Quiero destacar especialmente a Pablo, quien me atendió con muchísima amabilidad, paciencia y profesionalismo. Da gusto encontrar personas que se toman el tiempo de asesorarte y hacer que la experiencia de compra sea tan agradable. ¡Muchas gracias, Pablo, por tu excelente atención! Sin dudas, un lugar para recomendar. 👏❤️",
+   "fecha": "2026-11-10T12:51:08.732Z",
+   "dia": "2026-11-10",
+   "url": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25sWVFucDZaazVoWm5ONkxVYzJaVGh3U1hKUFZWRRAB!2m1!1s0x0:0x898bd33ee042447!3m1!1s2@1:CAIQACodChtycF9oOnlYQnp6Zk5hZnN6LUc2ZThwSXJPVVE%7C%7C?hl=es-419",
+   "respondida": false,
+   "vista": "2026-11-10T20:24:44.621Z",
+   "eliminada": false,
+   "antigua": false,
+   "areas": [
+    "ventas"
+   ],
+   "colaboradores": [
+    "Pablo"
+   ],
+   "clasificada": "palabras"
   }
  },
  "ficha": {
-  "puntaje": 4.7,
-  "cantidad": 291,
-  "al": "2026-11-09T22:57:33.865Z"
+  "puntaje": 4.8,
+  "cantidad": 293,
+  "al": "2026-11-10T20:24:44.621Z"
  },
- "ultima_ok": "2026-11-09T22:57:33.865Z",
+ "ultima_ok": "2026-11-10T20:24:44.621Z",
  "ultima_completa": "2026-11-05T00:32:48.305Z",
  "inicio": "2026-10-27"
 }
