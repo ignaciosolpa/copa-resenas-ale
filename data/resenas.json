@@ -2013,14 +2013,51 @@
     "Pablo"
    ],
    "clasificada": "palabras"
+  },
+  "Ci9DQUlRQUNvZENodHljRjlvT21Ga1dsRmZOVlZRYm1GaFNHRjJUMGxTYkZkaWNHYxAB": {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21Ga1dsRmZOVlZRYm1GaFNHRjJUMGxTYkZkaWNHYxAB",
+   "autor": "Julio A Martinengo",
+   "estrellas": 5,
+   "texto": "",
+   "fecha": "2026-11-10T22:57:25.927Z",
+   "dia": "2026-11-10",
+   "url": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21Ga1dsRmZOVlZRYm1GaFNHRjJUMGxTYkZkaWNHYxAB!2m1!1s0x0:0x898bd33ee042447!3m1!1s2@1:CAIQACodChtycF9oOmFkWlFfNVVQbmFhSGF2T0lSbFdicGc%7C%7C?hl=es-419",
+   "respondida": false,
+   "vista": "2026-11-11T20:08:14.893Z",
+   "eliminada": false,
+   "antigua": false,
+   "areas": [],
+   "colaboradores": [],
+   "clasificada": "sin texto"
+  },
+  "Ci9DQUlRQUNvZENodHljRjlvT2xrNVlteFpaVXB0Y2tOS1UySnZiMVJDV1U1QmRtYxAB": {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xrNVlteFpaVXB0Y2tOS1UySnZiMVJDV1U1QmRtYxAB",
+   "autor": "Joaquín Sosa",
+   "estrellas": 5,
+   "texto": "Muy buena atención sector deporte obviamente atendido por naty muy agradable y amable",
+   "fecha": "2026-11-10T21:44:46.628Z",
+   "dia": "2026-11-10",
+   "url": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xrNVlteFpaVXB0Y2tOS1UySnZiMVJDV1U1QmRtYxAB!2m1!1s0x0:0x898bd33ee042447!3m1!1s2@1:CAIQACodChtycF9oOlk5YmxZZUptckNKU2Jvb1RCWU5Bdmc%7C%7C?hl=es-419",
+   "respondida": false,
+   "vista": "2026-11-11T20:08:14.893Z",
+   "eliminada": false,
+   "antigua": false,
+   "areas": [
+    "ventas",
+    "deportes"
+   ],
+   "colaboradores": [
+    "Naty"
+   ],
+   "clasificada": "palabras"
   }
  },
  "ficha": {
   "puntaje": 4.8,
-  "cantidad": 293,
-  "al": "2026-11-10T20:24:44.621Z"
+  "cantidad": 295,
+  "al": "2026-11-11T20:08:14.892Z"
  },
- "ultima_ok": "2026-11-10T20:24:44.621Z",
- "ultima_completa": "2026-11-05T00:32:48.305Z",
+ "ultima_ok": "2026-11-11T20:08:14.893Z",
+ "ultima_completa": "2026-11-11T20:08:14.893Z",
  "inicio": "2026-10-27"
 }
