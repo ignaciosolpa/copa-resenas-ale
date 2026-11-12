@@ -2050,14 +2050,70 @@
     "Naty"
    ],
    "clasificada": "palabras"
+  },
+  "Ci9DQUlRQUNvZENodHljRjlvT21KWVl6Vk9TMEZpT0d4YWIya3hSRk42ZFVzNGFYYxAB": {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21KWVl6Vk9TMEZpT0d4YWIya3hSRk42ZFVzNGFYYxAB",
+   "autor": "Daiana Maranzana",
+   "estrellas": 5,
+   "texto": "Espectacular atención muy amables!!! Gracias!!!",
+   "fecha": "2026-11-12T20:29:59.379Z",
+   "dia": "2026-11-12",
+   "url": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21KWVl6Vk9TMEZpT0d4YWIya3hSRk42ZFVzNGFYYxAB!2m1!1s0x0:0x898bd33ee042447!3m1!1s2@1:CAIQACodChtycF9oOmJYYzVOS0FiOGxab2kxRFN6dUs4aXc%7C%7C?hl=es-419",
+   "respondida": false,
+   "vista": "2026-11-12T20:44:36.681Z",
+   "eliminada": false,
+   "antigua": false,
+   "areas": [
+    "ventas"
+   ],
+   "colaboradores": [],
+   "clasificada": "palabras"
+  },
+  "Ci9DQUlRQUNvZENodHljRjlvT2xSV2VtUjVOR2R0Y2xWUVdWSmZaV1E0YVY5cU1GRRAB": {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xSV2VtUjVOR2R0Y2xWUVdWSmZaV1E0YVY5cU1GRRAB",
+   "autor": "Rocio Iglesias",
+   "estrellas": 5,
+   "texto": "Como siempre, excelente atencion !!",
+   "fecha": "2026-11-12T14:36:16.113Z",
+   "dia": "2026-11-12",
+   "url": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xSV2VtUjVOR2R0Y2xWUVdWSmZaV1E0YVY5cU1GRRAB!2m1!1s0x0:0x898bd33ee042447!3m1!1s2@1:CAIQACodChtycF9oOlRWemR5NGdtclVQWVJfZWQ4aV9qMFE%7C%7C?hl=es-419",
+   "respondida": false,
+   "vista": "2026-11-12T20:44:36.681Z",
+   "eliminada": false,
+   "antigua": false,
+   "areas": [
+    "ventas"
+   ],
+   "colaboradores": [],
+   "clasificada": "palabras"
+  },
+  "Ci9DQUlRQUNvZENodHljRjlvT2xGaVQxWXdTbWRRT0ZCTWJWWlVXbEpMVlY5TVZtYxAB": {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2xGaVQxWXdTbWRRT0ZCTWJWWlVXbEpMVlY5TVZtYxAB",
+   "autor": "Miguel Blanco",
+   "estrellas": 4,
+   "texto": "Muy bueno los electrodomestico y la atencion de pablo excelente",
+   "fecha": "2026-11-12T12:38:36.243Z",
+   "dia": "2026-11-12",
+   "url": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2xGaVQxWXdTbWRRT0ZCTWJWWlVXbEpMVlY5TVZtYxAB!2m1!1s0x0:0x898bd33ee042447!3m1!1s2@1:CAIQACodChtycF9oOlFiT1YwSmdQOFBMbVZUWlJLVV9MVmc%7C%7C?hl=es-419",
+   "respondida": false,
+   "vista": "2026-11-12T20:44:36.681Z",
+   "eliminada": false,
+   "antigua": false,
+   "areas": [
+    "ventas"
+   ],
+   "colaboradores": [
+    "Pablo"
+   ],
+   "clasificada": "palabras"
   }
  },
  "ficha": {
   "puntaje": 4.8,
-  "cantidad": 295,
-  "al": "2026-11-11T20:08:14.892Z"
+  "cantidad": 298,
+  "al": "2026-11-12T20:44:36.681Z"
  },
- "ultima_ok": "2026-11-11T20:08:14.893Z",
+ "ultima_ok": "2026-11-12T20:44:36.681Z",
  "ultima_completa": "2026-11-11T20:08:14.893Z",
  "inicio": "2026-10-27"
 }
