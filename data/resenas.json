@@ -2249,14 +2249,55 @@
    ],
    "colaboradores": [],
    "clasificada": "palabras"
+  },
+  "ChRDSUhNMG9nS0VJQ0FnSURpa2NsYhAB": {
+   "id": "ChRDSUhNMG9nS0VJQ0FnSURpa2NsYhAB",
+   "autor": "Nancy López Diaz",
+   "estrellas": 5,
+   "texto": "Excelente atención de Natalia",
+   "fecha": "2026-11-14T15:34:54.189Z",
+   "dia": "2026-11-14",
+   "url": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sChRDSUhNMG9nS0VJQ0FnSURpa2NsYhAB!2m1!1s0x0:0x898bd33ee042447!3m1!1s2@1:CIHM0ogKEICAgIDikclb%7C%7C?hl=es-419",
+   "respondida": false,
+   "vista": "2026-11-14T18:42:57.864Z",
+   "eliminada": false,
+   "antigua": true,
+   "areas": [
+    "ventas"
+   ],
+   "colaboradores": [
+    "Natalia"
+   ],
+   "clasificada": "palabras"
+  },
+  "Ci9DQUlRQUNvZENodHljRjlvT2kwellXWnBMVEUxYXpWd2FHbHFVVWx3WlVOeUxYYxAB": {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2kwellXWnBMVEUxYXpWd2FHbHFVVWx3WlVOeUxYYxAB",
+   "autor": "Nadia Bengolea",
+   "estrellas": 5,
+   "texto": "La mejor atención de Nati en el sector deportes!! Excelente!!",
+   "fecha": "2026-11-13T20:52:29.021Z",
+   "dia": "2026-11-13",
+   "url": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2kwellXWnBMVEUxYXpWd2FHbHFVVWx3WlVOeUxYYxAB!2m1!1s0x0:0x898bd33ee042447!3m1!1s2@1:CAIQACodChtycF9oOi0zYWZpLTE1azVwaGlqUUlwZUNyLXc%7C%7C?hl=es-419",
+   "respondida": false,
+   "vista": "2026-11-14T18:42:57.864Z",
+   "eliminada": false,
+   "antigua": false,
+   "areas": [
+    "ventas",
+    "deportes"
+   ],
+   "colaboradores": [
+    "Nati"
+   ],
+   "clasificada": "palabras"
   }
  },
  "ficha": {
   "puntaje": 4.8,
-  "cantidad": 306,
-  "al": "2026-11-13T20:27:41.728Z"
+  "cantidad": 307,
+  "al": "2026-11-14T18:42:57.864Z"
  },
- "ultima_ok": "2026-11-13T20:27:41.728Z",
+ "ultima_ok": "2026-11-14T18:42:57.864Z",
  "ultima_completa": "2026-11-11T20:08:14.893Z",
  "inicio": "2026-10-27"
 }
