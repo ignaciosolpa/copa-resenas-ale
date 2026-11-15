@@ -2290,14 +2290,33 @@
     "Nati"
    ],
    "clasificada": "palabras"
+  },
+  "Ci9DQUlRQUNvZENodHljRjlvT201MFNGOVlYM056V2tob1UzTkpXa1JMYmtaU1IwRRAB": {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT201MFNGOVlYM056V2tob1UzTkpXa1JMYmtaU1IwRRAB",
+   "autor": "Heber Bengolea",
+   "estrellas": 5,
+   "texto": "Muy buena la atención, excelente ropa!!",
+   "fecha": "2026-11-14T22:29:53.390Z",
+   "dia": "2026-11-14",
+   "url": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT201MFNGOVlYM056V2tob1UzTkpXa1JMYmtaU1IwRRAB!2m1!1s0x0:0x898bd33ee042447!3m1!1s2@1:CAIQACodChtycF9oOm50SF9YX3NzWkhoU3NJWkRLbkZSR0E%7C%7C?hl=es-419",
+   "respondida": false,
+   "vista": "2026-11-15T19:20:08.003Z",
+   "eliminada": false,
+   "antigua": false,
+   "areas": [
+    "ventas",
+    "deportes"
+   ],
+   "colaboradores": [],
+   "clasificada": "palabras"
   }
  },
  "ficha": {
   "puntaje": 4.8,
-  "cantidad": 307,
-  "al": "2026-11-14T18:42:57.864Z"
+  "cantidad": 308,
+  "al": "2026-11-15T19:20:08.003Z"
  },
- "ultima_ok": "2026-11-14T18:42:57.864Z",
+ "ultima_ok": "2026-11-15T19:20:08.003Z",
  "ultima_completa": "2026-11-11T20:08:14.893Z",
  "inicio": "2026-10-27"
 }
