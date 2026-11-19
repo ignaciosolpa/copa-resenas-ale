@@ -2424,14 +2424,67 @@
     "Lucas"
    ],
    "clasificada": "palabras"
+  },
+  "Ci9DQUlRQUNvZENodHljRjlvT2tOaGNUZGxlR0ZhTmxkUVNVSk9RMTlTVkRkTU1sRRAB": {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2tOaGNUZGxlR0ZhTmxkUVNVSk9RMTlTVkRkTU1sRRAB",
+   "autor": "Graciela Jaime",
+   "estrellas": 4,
+   "texto": "Muy lindo todo",
+   "fecha": "2026-11-19T21:17:47.995Z",
+   "dia": "2026-11-19",
+   "url": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tOaGNUZGxlR0ZhTmxkUVNVSk9RMTlTVkRkTU1sRRAB!2m1!1s0x0:0x898bd33ee042447!3m1!1s2@1:CAIQACodChtycF9oOkNhcTdleGFaNldQSUJOQ19SVDdMMlE%7C%7C?hl=es-419",
+   "respondida": false,
+   "vista": "2026-11-19T21:21:56.773Z",
+   "eliminada": false,
+   "antigua": false,
+   "areas": [],
+   "colaboradores": [],
+   "clasificada": "palabras"
+  },
+  "Ci9DQUlRQUNvZENodHljRjlvT21oMVVGVlFTMDh4Y0U1YVdtVnNkbmxZWTI5MlVHYxAB": {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21oMVVGVlFTMDh4Y0U1YVdtVnNkbmxZWTI5MlVHYxAB",
+   "autor": "Jorge Laceda",
+   "estrellas": 5,
+   "texto": "Excelente atención de José y soledad",
+   "fecha": "2026-11-19T14:35:16.902Z",
+   "dia": "2026-11-19",
+   "url": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21oMVVGVlFTMDh4Y0U1YVdtVnNkbmxZWTI5MlVHYxAB!2m1!1s0x0:0x898bd33ee042447!3m1!1s2@1:CAIQACodChtycF9oOmh1UFVQS08xcE5aWmVsdnlYY292UGc%7C%7C?hl=es-419",
+   "respondida": false,
+   "vista": "2026-11-19T21:21:56.773Z",
+   "eliminada": false,
+   "antigua": false,
+   "areas": [
+    "ventas"
+   ],
+   "colaboradores": [
+    "Jose",
+    "Soledad"
+   ],
+   "clasificada": "palabras"
+  },
+  "Ci9DQUlRQUNvZENodHljRjlvT2tGTU5TMDViM1l5Wm5wclNqRkNjbkJPV1d4SFRWRRAB": {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2tGTU5TMDViM1l5Wm5wclNqRkNjbkJPV1d4SFRWRRAB",
+   "autor": "Roberto Moreira",
+   "estrellas": 5,
+   "texto": "",
+   "fecha": "2026-11-19T13:34:57.119Z",
+   "dia": "2026-11-19",
+   "url": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tGTU5TMDViM1l5Wm5wclNqRkNjbkJPV1d4SFRWRRAB!2m1!1s0x0:0x898bd33ee042447!3m1!1s2@1:CAIQACodChtycF9oOkFMNS05b3YyZnprSjFCcnBOWWxHTVE%7C%7C?hl=es-419",
+   "respondida": false,
+   "vista": "2026-11-19T21:21:56.773Z",
+   "eliminada": false,
+   "antigua": false,
+   "areas": [],
+   "colaboradores": [],
+   "clasificada": "sin texto"
   }
  },
  "ficha": {
   "puntaje": 4.8,
-  "cantidad": 314,
-  "al": "2026-11-18T21:19:39.392Z"
+  "cantidad": 318,
+  "al": "2026-11-19T21:21:56.773Z"
  },
- "ultima_ok": "2026-11-18T21:19:39.393Z",
+ "ultima_ok": "2026-11-19T21:21:56.773Z",
  "ultima_completa": "2026-11-18T21:19:39.393Z",
  "inicio": "2026-10-27"
 }
