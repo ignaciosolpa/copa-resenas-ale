@@ -1526,13 +1526,14 @@
    "url": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tWRVF6TlhiMEZJUkdGUlgxazJSRTVDZUY5dU9IYxAB!2m1!1s0x0:0x898bd33ee042447!3m1!1s2@1:CAIQACodChtycF9oOkVEQzNXb0FIRGFRX1k2RE5CeF9uOHc%7C%7C?hl=es-419",
    "respondida": false,
    "vista": "2026-11-05T00:30:13.456Z",
-   "eliminada": false,
+   "eliminada": true,
    "areas": [
     "ventas"
    ],
    "colaboradores": [],
    "clasificada": "palabras",
-   "antigua": false
+   "antigua": false,
+   "eliminada_al": "2026-11-25T03:09:18.737Z"
   },
   "Ci9DQUlRQUNvZENodHljRjlvT21aV2EyVnFNV3c0YjJsMVNEWkxiMEZXVWxoMGFYYxAB": {
    "id": "Ci9DQUlRQUNvZENodHljRjlvT21aV2EyVnFNV3c0YjJsMVNEWkxiMEZXVWxoMGFYYxAB",
@@ -3069,14 +3070,106 @@
    "areas": [],
    "colaboradores": [],
    "clasificada": "palabras"
+  },
+  "Ci9DQUlRQUNvZENodHljRjlvT25nelFUUkxUMEpyYm1WYVgzQjZTbE5LTkdFek9IYxAB": {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT25nelFUUkxUMEpyYm1WYVgzQjZTbE5LTkdFek9IYxAB",
+   "autor": "Paola Farias",
+   "estrellas": 5,
+   "texto": "Excelente atencion de soledad impecables las condiciones en general , recomendable !",
+   "fecha": "2026-11-24T23:11:43.732Z",
+   "dia": "2026-11-24",
+   "url": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT25nelFUUkxUMEpyYm1WYVgzQjZTbE5LTkdFek9IYxAB!2m1!1s0x0:0x898bd33ee042447!3m1!1s2@1:CAIQACodChtycF9oOngzQTRLT0JrbmVaX3B6SlNKNGEzOHc%7C%7C?hl=es-419",
+   "respondida": false,
+   "vista": "2026-11-25T03:09:18.737Z",
+   "eliminada": false,
+   "antigua": false,
+   "areas": [
+    "ventas"
+   ],
+   "colaboradores": [
+    "Soledad"
+   ],
+   "clasificada": "palabras"
+  },
+  "Ci9DQUlRQUNvZENodHljRjlvT21oMVZsTTNPRzlSVVZkelRqQlVPVTF3TVhwMmFIYxAB": {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21oMVZsTTNPRzlSVVZkelRqQlVPVTF3TVhwMmFIYxAB",
+   "autor": "Ulises Barrio",
+   "estrellas": 5,
+   "texto": "Exelente atención de todo el personal,",
+   "fecha": "2026-11-24T22:28:34.481Z",
+   "dia": "2026-11-24",
+   "url": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21oMVZsTTNPRzlSVVZkelRqQlVPVTF3TVhwMmFIYxAB!2m1!1s0x0:0x898bd33ee042447!3m1!1s2@1:CAIQACodChtycF9oOmh1VlM3OG9RUVdzTjBUOU1wMXp2aHc%7C%7C?hl=es-419",
+   "respondida": false,
+   "vista": "2026-11-25T03:09:18.737Z",
+   "eliminada": false,
+   "antigua": false,
+   "areas": [
+    "ventas"
+   ],
+   "colaboradores": [],
+   "clasificada": "palabras"
+  },
+  "Ci9DQUlRQUNvZENodHljRjlvT2toMGNFTmtlREZIZG5kbFZVSnNTbXRmWmtGUk1YYxAB": {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2toMGNFTmtlREZIZG5kbFZVSnNTbXRmWmtGUk1YYxAB",
+   "autor": "Ana Paula Prato",
+   "estrellas": 5,
+   "texto": "Excelente atención\nProductos de calidad.\nY siempre responden las consultas telefónicas.\nContinúen así. Felicitaciones",
+   "fecha": "2026-11-24T21:31:26.814Z",
+   "dia": "2026-11-24",
+   "url": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2toMGNFTmtlREZIZG5kbFZVSnNTbXRmWmtGUk1YYxAB!2m1!1s0x0:0x898bd33ee042447!3m1!1s2@1:CAIQACodChtycF9oOkh0cENkeDFHdndlVUJsSmtfZkFRMXc%7C%7C?hl=es-419",
+   "respondida": false,
+   "vista": "2026-11-25T03:09:18.737Z",
+   "eliminada": false,
+   "antigua": false,
+   "areas": [
+    "ventas"
+   ],
+   "colaboradores": [],
+   "clasificada": "palabras"
+  },
+  "Ci9DQUlRQUNvZENodHljRjlvT2tkMVJEVktXbXBTZEdSSWNtOWlaa1JaWW5OYWIxRRAB": {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT2tkMVJEVktXbXBTZEdSSWNtOWlaa1JaWW5OYWIxRRAB",
+   "autor": "manuel leguiza",
+   "estrellas": 5,
+   "texto": "Muy buena atención.",
+   "fecha": "2026-11-24T21:12:09.456Z",
+   "dia": "2026-11-24",
+   "url": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT2tkMVJEVktXbXBTZEdSSWNtOWlaa1JaWW5OYWIxRRAB!2m1!1s0x0:0x898bd33ee042447!3m1!1s2@1:CAIQACodChtycF9oOkd1RDVKWmpSdGRIcm9iZkRZYnNab1E%7C%7C?hl=es-419",
+   "respondida": false,
+   "vista": "2026-11-25T03:09:18.737Z",
+   "eliminada": false,
+   "antigua": false,
+   "areas": [
+    "ventas"
+   ],
+   "colaboradores": [],
+   "clasificada": "palabras"
+  },
+  "Ci9DQUlRQUNvZENodHljRjlvT21aelEwTkNTVmxYVFRneE5tTlNUM2MzY1V4SlEwRRAB": {
+   "id": "Ci9DQUlRQUNvZENodHljRjlvT21aelEwTkNTVmxYVFRneE5tTlNUM2MzY1V4SlEwRRAB",
+   "autor": "Mireya Testa",
+   "estrellas": 5,
+   "texto": "Siempre muy bien recibida y conforme con la indumentaria.",
+   "fecha": "2026-11-24T14:17:59.561Z",
+   "dia": "2026-11-24",
+   "url": "https://www.google.com/maps/reviews/data=!4m8!14m7!1m6!2m5!1sCi9DQUlRQUNvZENodHljRjlvT21aelEwTkNTVmxYVFRneE5tTlNUM2MzY1V4SlEwRRAB!2m1!1s0x0:0x898bd33ee042447!3m1!1s2@1:CAIQACodChtycF9oOmZzQ0NCSVlXTTgxNmNST3c3cUxJQ0E%7C%7C?hl=es-419",
+   "respondida": false,
+   "vista": "2026-11-25T03:09:18.737Z",
+   "eliminada": false,
+   "antigua": false,
+   "areas": [
+    "deportes"
+   ],
+   "colaboradores": [],
+   "clasificada": "palabras"
   }
  },
  "ficha": {
   "puntaje": 4.8,
-  "cantidad": 347,
-  "al": "2026-11-24T04:20:12.593Z"
+  "cantidad": 352,
+  "al": "2026-11-25T03:09:18.737Z"
  },
- "ultima_ok": "2026-11-24T04:20:12.594Z",
- "ultima_completa": "2026-11-18T21:19:39.393Z",
+ "ultima_ok": "2026-11-25T03:09:18.737Z",
+ "ultima_completa": "2026-11-25T03:09:18.737Z",
  "inicio": "2026-10-27"
 }
